@@ -1,0 +1,191 @@
+/*
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Merienda', cursive;
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Nunito', sans-serif;
+*/
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 0px auto 0 auto;
+    height: 6.875rem;
+    font-size: 5.625rem;
+    font-family: 'Merienda', cursive;
+    color: #464660;
+}
+
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    color: #368B85;
+    margin-top: 80px;
+}
+
+h3{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: #003638;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+hr {
+    border: dotted #F5C0C0 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto 50px auto;
+}
+
+a {
+    font-family: 'Merienda', cursive;
+    color: #EAF6F6;
+    font-size: 1.2rem;
+    text-decoration: none; 
+    margin: 0 8px 0 8px;
+}
+
+a:hover {
+    color: #F5C0C0;
+}
+
+.subheading {
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 0;
+    color: #F5C0C0;
+    font-size: 2.5rem;
+}
+
+.top-code {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-code {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 250px;
+    bottom: 100px;
+}
+
+.c_bulb {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.c_data{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 100px;
+    top: 400px;
+}
+
+.mePhoto {
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.top-container {
+    background-color: #F1E9E5;
+    margin: 0px;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    background-color: #F9F9F9;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 20px 0 20px;
+}
+
+.intro {
+    width: 75%;
+    margin: auto;
+}
+
+.skill-row {
+    margin: 50px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skillrowImage1 {
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skillrowImage2 {
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    float: right;
+    margin-left: 30px;
+}
+
+.skillrowImage3 {
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skillrowdes1 {
+    margin: auto;
+    width: auto;
+}
+
+.skillrowdes2 {
+    font-family: 'Nunito', sans-serif;
+    color: #003638;
+    font-size: 1.2rem;
+}
+
+.project_linky {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #464660;
+}
+
+.project_linky:hover {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-me {
+    width: 60%;
+    margin: 40px auto 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.05rem;
+    padding: 20px 0;
+}
+
+
