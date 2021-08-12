@@ -1,5 +1,3 @@
-# My_Personalized_WebSite-HTML-CSS
-
 # My-Personalized-Site-HTML-CSS
 
 Personalized WebSite designed and developed By Siddharth Singh.
