@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Merienda&family=MonteCarlo&family=Nunito&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d9f7ec7b29.js" crossorigin="anonymous"></script>
     
+    
+
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -31,10 +32,6 @@
 
 </head>
 <body>
-
-    <!-- Back-to-top Button -->
-    <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
-
     <div class="top-container">
         <img class="top-code" src="images/coding_icon.png" alt="coding image">
         <h1>I'm Siddy.</h1>
@@ -49,7 +46,7 @@
     <div class="middle-container">
         <div class="profile">
             <img src="images/mePhoto.jpg" class="mePhoto" alt="Siddharth Singh's Profile Photo" height="300px" width="250px">
-            <h2>Hello 🖐🏻</h2>
+            <h2>Hello.</h2>
             <p class="intro">I am Siddharth Singh, a tech-enthusiast and avid developer. Inquisitive, energetic computer science student skilled in leadership with a strong foundation in math and programming logic. Seeking to leverage solid development skills with a focus on collaboration, communication, passion and creativity into an engineering role that allows me to create engaging projects and user experiences. Skilled in C++, C, Java and python. I am a quick learner.</p>
         </div>
         <hr>
@@ -77,7 +74,7 @@
                         The game is desgined and developed using GDX library. 
                     </li>                            
                 </ul>
-                <p>Check-out my other exciting projects over <a class="project_linky" href="https://github.com/SiddyDevelops">GitHub.</a></p>
+                <p>Check-out my other exciting projects over <a class="project_linky" href="https://github.com/SiddyDevelops">Github</a>.</p>
             </div>
             <div class="skill-row">
                 <img class="skillrowImage3" src="images/hobbies.png" alt="Programing Languages">
@@ -90,66 +87,16 @@
         <hr>
         <div class="contact-me">
             <h2>Get In Touch</h2>
-            <h3>Let's get connected!</h3>
-            <p class="contact-me">Follow me on GitHub and LinkedIn to see my awesome projects and also to contribute together in projects.</p>
+            <h3>Lets get connected!</h3>
+            <p class="contact-me">Follow me on Github and Linkedin to see my awesome projects and also to contribute together in projects.</p>
         </div>
     </div>
     <div class="bottom-container">
         <a href="https://instagram.com/_siddy_08_">Instagram</a>
         <a class="footer-link" href="https://www.linkedin.com/in/siddharth-singh-08/">LinkedIn</a>
-        <a class="footer-link" href="https://github.com/SiddyDevelops">GitHub</a>
+        <a class="footer-link" href="https://github.com/SiddyDevelops">Github</a>
         <p class="copyright">© 2021 Designed and Developed By Siddharth Singh.</p>
       </div> 
     
 </body>
-
-<script>
-    /* Back-to-top button functionality */
-    const backToTopButton = document.querySelector("#back-to-top-btn");
-
-    window.addEventListener("scroll", scrollFunction);
-    function scrollFunction() {
-    if (window.pageYOffset > 300) { // Show backToTopButton
-        if(!backToTopButton.classList.contains("btnEntrance")) {
-        backToTopButton.classList.remove("btnExit");
-        backToTopButton.classList.add("btnEntrance");
-        backToTopButton.style.display = "block";
-        }
-    }
-    else { // Hide backToTopButton
-        if(backToTopButton.classList.contains("btnEntrance")) {
-        backToTopButton.classList.remove("btnEntrance");
-        backToTopButton.classList.add("btnExit");
-        setTimeout(function() {
-            backToTopButton.style.display = "none";
-        }, 250);
-        }
-    }
-    }
-
-    backToTopButton.addEventListener("click", smoothScrollBackToTop);
-
-    function smoothScrollBackToTop() {
-    const targetPosition = 0;
-    const startPosition = window.pageYOffset;
-    const distance = targetPosition - startPosition;
-    const duration = 750;
-    let start = null;
-    window.requestAnimationFrame(step);
-    function step(timestamp) {
-        if (!start) start = timestamp;
-        const progress = timestamp - start;
-        window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-        if (progress < duration) window.requestAnimationFrame(step);
-    }
-    }
-
-    function easeInOutCubic(t, b, c, d) {
-    t /= d/2;
-    if (t < 1) return c/2*t*t*t + b;
-    t -= 2;
-    return c/2*(t*t*t + 2) + b;
-    };
-</script>
-
 </html>
