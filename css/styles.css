@@ -6,186 +6,270 @@
 */
 
 body {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
-    margin: 0px auto 0 auto;
-    height: 6.875rem;
-    font-size: 5.625rem;
-    font-family: 'Merienda', cursive;
-    color: #464660;
+  margin: 0px auto 0 auto;
+  height: 6.875rem;
+  font-size: 5.625rem;
+  font-family: 'Merienda', cursive;
+  color: #464660;
 }
 
 h2 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 2rem;
-    color: #368B85;
-    margin-top: 80px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+  color: #368b85;
+  margin-top: 80px;
 }
 
-h3{
-    font-family: 'IBM Plex Mono', monospace;
-    color: #11999E;
-    font-size: 1.5rem;
+h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #11999e;
+  font-size: 1.5rem;
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
-    color: #003638;
-    font-size: 1.2rem;
-    line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  color: #003638;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 hr {
-    border: dotted #F5C0C0 6px;
-    border-bottom: none;
-    width: 5%;
-    margin: 50px auto 50px auto;
+  border: dotted #f5c0c0 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto 50px auto;
 }
 
 a {
-    font-family: 'Merienda', cursive;
-    color: #EAF6F6;
-    font-size: 1.2rem;
-    text-decoration: none; 
-    margin: 0 8px 0 8px;
+  font-family: 'Merienda', cursive;
+  color: #eaf6f6;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 8px 0 8px;
 }
 
 a:hover {
-    color: #F5C0C0;
+  color: #f5c0c0;
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(102, 191, 191, 0.7);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 25%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background, color;
+  transform: translateY(7px);
+  transition: 0.5s;
+}
+#back-to-top-btn:hover,
+#back-to-top-btn:focus {
+  background: 'transparent';
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  transform: translateY(-7px);
+  transition: 0.5s;
 }
 
 .subheading {
-    font-family: 'IBM Plex Mono', monospace;
-    margin-top: 0;
-    color: #F5C0C0;
-    font-size: 2.5rem;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-top: 0;
+  color: #f5c0c0;
+  font-size: 2.5rem;
 }
 
 .top-code {
-    position: absolute;
-    right: 300px;
-    top: 40px;
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
 
 .bottom-code {
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 250px;
-    bottom: 100px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 250px;
+  bottom: 100px;
 }
 
 .c_bulb {
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 100px;
-    top: 200px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
 }
 
-.c_data{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    right: 100px;
-    top: 400px;
+.c_data {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 100px;
+  top: 400px;
 }
 
 .mePhoto {
-    margin-top: 20px;
-    border-radius: 100%;
+  margin-top: 20px;
+  border-radius: 100%;
 }
 
 .top-container {
-    background-color: #F1E9E5;
-    margin: 0px;
-    position: relative;
-    padding-top: 100px;
+  background-color: #f1e9e5;
+  margin: 0px;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-    margin-top: 0px;
-    padding-bottom: 20px;
-    background-color: #F9F9F9;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  background-color: #f9f9f9;
 }
 
 .bottom-container {
-    background-color: #66BFBF;
-    padding: 20px 0 20px;
+  background-color: #66bfbf;
+  padding: 20px 0 20px;
 }
 
 .intro {
-    width: 75%;
-    margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
 .skill-row {
-    margin: 50px auto 100px auto;
-    width: 50%;
-    text-align: left;
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
 }
 
 .skillrowImage1 {
-    height: 25%;
-    width: 25%;
-    border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
 }
 
 .skillrowImage2 {
-    height: 170px;
-    width: 170px;
-    border-radius: 100px;
-    float: right;
-    margin-left: 30px;
+  height: 170px;
+  width: 170px;
+  border-radius: 100px;
+  float: right;
+  margin-left: 30px;
 }
 
 .skillrowImage3 {
+  height: 170px;
+  width: 170px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillrowdes1 {
+  margin: auto;
+  width: auto;
+}
+
+.skillrowdes2 {
+  font-family: 'Nunito', sans-serif;
+  color: #003638;
+  font-size: 1.2rem;
+}
+
+.project_linky {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #464660;
+}
+
+.project_linky:hover {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-me {
+  width: 60%;
+  margin: 40px auto 0px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.05rem;
+  padding: 20px 0;
+}
+
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .top-code {
+    right: 30px;
+  }
+  .c_bulb {
+    left: 10px;
+    top: 210px;
+  }
+  .c_data {
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 280px;
+  }
+  .bottom-code {
+    left: 20px;
+    bottom: 530px;
+  }
+  .skill-row h3,
+  .skill-row p {
+    text-align: center;
+  }
+  .skillrowImage1 {
+    height: 75%;
+    width: 75%;
+    display: block;
+    margin-right: auto;
+    margin-left: 30px;
+  }
+  .skillrowImage2 {
     height: 170px;
     width: 170px;
     border-radius: 100px;
     float: left;
-    margin-right: 30px;
+    margin-left: 30px;
+  }
+  ul {
+    width: 100%;
+    margin-left: -30px;
+  }
+  .skillrowImage3 {
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    float: left;
+    margin-left: 30px;
+  }
+  .contact-me {
+    width: 75%;
+  }
+  #back-to-top-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+  }
 }
-
-.skillrowdes1 {
-    margin: auto;
-    width: auto;
-}
-
-.skillrowdes2 {
-    font-family: 'Nunito', sans-serif;
-    color: #003638;
-    font-size: 1.2rem;
-}
-
-.project_linky {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #464660;
-}
-
-.project_linky:hover {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.contact-me {
-    width: 60%;
-    margin: 40px auto 0px;
-    font-family: 'Nunito', sans-serif;
-}
-
-.copyright {
-    color: #EAF6F6;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.05rem;
-    padding: 20px 0;
-}
-
-
