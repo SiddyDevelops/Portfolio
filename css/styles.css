@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    margin: 0px auto 0 auto;
+    margin: 0 auto 0 auto;
     height: 6.875rem;
     font-size: 5.625rem;
     font-family: 'Merienda', cursive;
@@ -126,6 +126,9 @@ a:hover {
     margin: 50px auto 100px auto;
     width: 60%;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillrow-image-col{
@@ -197,24 +200,35 @@ a:hover {
     padding: 20px 0;
 }
 
-@media (max-width: 768px) {
-  .top-code, .bottom-code, .c_bulb, .c_data {
-      display: none;
-  }
 
-  .intro {
-      width: 90%;
-      margin: auto;
-  }
 
-  .skill-row {
-      margin: 7% auto;
-      width: 90%;
-  }
+@media screen and (max-width: 768px) {
+    .top-container h1 {
+        margin-top: 3.4rem;
+        font-size: 4.790rem;
+    }
+    .subheading {
+        margin-top: -1.2rem;
+        margin-bottom: 2rem;
+    }
 
-  .contact-me {
-      width: 80%;
-      margin: 5% auto 0px;
-  }
+    .top-code, .bottom-code, .c_bulb, .c_data {
+        display: none;
+    }
+
+    .intro {
+        width: 90%;
+        margin: auto;
+    }
+
+    .skill-row {
+        margin: 7% auto;
+        width: 90%;
+    }
+
+    .contact-me {
+        width: 80%;
+        margin: 5% auto 0px;
+    }
 
 }
