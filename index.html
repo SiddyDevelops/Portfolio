@@ -33,7 +33,42 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about_me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my_skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my_projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my_hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact_me">Contact me</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
 </head>
+
+
+
+
 <body>
     <div class="top-container">
         <img class="top-code" src="images/coding_icon.png" alt="coding image">
@@ -46,16 +81,17 @@
         <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_hluo7ags.json" background="transparent"  speed="1"  style="/* width: 325px; */height: 325px;"  loop  autoplay></lottie-player>
     </div>
 
-    <div class="middle-container">
-        <div class="profile">
+    <div  class="middle-container">
+        <div  id="about_me" class="profile">
             <img src="images/mePhoto.jpg" class="mePhoto" alt="Siddharth Singh's Profile Photo" height="300px" width="250px">
             <h2>Hello.</h2>
             <p class="intro">I am Siddharth Singh, a tech-enthusiast and avid developer. Inquisitive, energetic computer science student skilled in leadership with a strong foundation in math and programming logic. Seeking to leverage solid development skills with a focus on collaboration, communication, passion and creativity into an engineering role that allows me to create engaging projects and user experiences. Skilled in C++, C, Java and python. I am a quick learner.</p>
         </div>
         <hr>
         <div>
+          <div id="my_skills">
             <h2>My Skills</h2>
-            <div class="skill-row row">
+            <div  class="skill-row row">
               <div class="col-4 skillrow-image-col">
                 <img class="skillrowImage1" src="images/proLang.jpg" alt="Programing Languages">
               </div>
@@ -64,6 +100,8 @@
                 <p class="skillrowdes1">I can code in C/C++, Java, and Python. I can design and develop Android Apps. I am currently learning Web Development.</p>
               </div>
             </div>
+          </div>
+          <div id="my_projects" >
             <div class="skill-row row">
               <div class="col">
                 <h3>Projects</h3>
@@ -82,11 +120,13 @@
                     </li>
                 </ul>
                 <p>Check-out my other exciting projects over <button type="button" name="button" class="btn btn-dark github-btn"><a class="github-link" href="https://github.com/SiddyDevelops" target="_blank">Github</a></button></p>
-              </div>
+              </div>  
               <div class="col-4 skillrow-image-col">
                 <img class="skillrowImage2" src="images/ProjectManagement.jpg" alt="Projects">
               </div>
-            </div>
+            </div>    
+          </div>
+          <div  id="my_hobbies">
             <div class="skill-row row">
               <div class="col-4 skillrow-image-col">
                 <img class="skillrowImage3" src="images/hobbies.png" alt="Hobbies Image">
@@ -98,9 +138,10 @@
                 </p>
               </div>    
             </div>
+          </div>  
         </div>
         <hr>
-        <div class="contact-me">
+        <div id="contact_me" class="contact-me">
             <h2>Get In Touch</h2>
             <h3>Lets get connected!</h3>
             <p class="contact-me">Follow me on Github and Linkedin to see my awesome projects and also to contribute together in projects.</p>
