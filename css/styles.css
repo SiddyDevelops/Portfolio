@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+/* .navbar{
+    position: sticky;
+    top: 0px;
+} */
+
 h1 {
     margin: 0px auto 0 auto;
     height: 6.875rem;
@@ -106,7 +111,7 @@ a:hover {
 
 .top-container {
     background-color: #F1E9E5;
-    margin: 0px;
+    margin: 40px 0px 0px 0px;
     position: relative;
     padding-top: 100px;
 }
