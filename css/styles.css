@@ -41,8 +41,13 @@ p {
 hr {
     border: dotted #F5C0C0 6px;
     border-bottom: none;
+    background-color: #F9F9F9;
     width: 5%;
     margin: 50px auto 50px auto;
+}
+
+.githuba {
+    color: black;
 }
 
 a {
@@ -163,7 +168,7 @@ a:hover {
 }
 
 .project_linky {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;;
     font-size: 1.2rem;
     text-decoration: none;
     color: #464660;
