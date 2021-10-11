@@ -166,10 +166,11 @@ a:hover {
     width: auto;
 }
 
-.skillrowdes2 {
+.skillrowdes2 p{
     font-family: 'Nunito', sans-serif;
     color: #003638;
     font-size: 1.2rem;
+    padding-left: 7px;
 }
 
 .project_linky {
@@ -181,7 +182,7 @@ a:hover {
 
 .project_linky:hover {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .github-link{
