@@ -104,6 +104,14 @@
   </head>
 
   <body>
+  <!--Preloader-->
+    <div id="overlayer"></div>
+      <div class="preloader">
+        <div class="loader">
+         <span class="loader-inner"></span>
+        </div>
+      <p> Loading...</p>
+      </div>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
@@ -317,6 +325,19 @@
           projects.
         </p>
       </div>
+      <!--Contact from-->
+      <div class="container1">
+        <form action="#">
+            <h2>Contact Us</h2>
+            <p>Please fill this form with a message. We will get back in 24 hours.</p>
+            <!--Input  tag specifies an input field where the user can enter data-->
+            <input type="text" placeholder="Name" required autofocus>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Mobile Number" required>
+            <textarea placeholder="Message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     </div>
     <div class="bottom-container">
       <a href="https://instagram.com/_siddy_08_">Instagram</a>
@@ -325,8 +346,16 @@
         href="https://www.linkedin.com/in/siddharth-singh-08/"
         >LinkedIn</a
       >
-      <a class="footer-link" href="https://github.com/SiddyDevelops">Github</a>
+      <i class="fab fa-instagram"><a class="footer-link" href="https://github.com/SiddyDevelops">Github</a></i>
       <p class="copyright">© 2021 Designed and Developed By Siddharth Singh.</p>
     </div>
   </body>
+  <!-- jQuery for loading -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+   $(window).load(function() {
+   $(".preloader").delay(1000).fadeOut("slow");
+   $("#overlayer").delay(1000).fadeOut("slow");
+   })
+</script>
 </html>
