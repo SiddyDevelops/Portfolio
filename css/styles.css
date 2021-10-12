@@ -22,7 +22,9 @@ h1 {
   font-family: "Merienda", cursive;
   color: #464660;
 }
-
+.selected {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
 h2 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
@@ -60,6 +62,7 @@ a {
   color: #eaf6f6;
   font-size: 1.2rem;
   text-decoration: none;
+
   margin: 0 8px 0 8px;
 }
 
@@ -304,6 +307,7 @@ a:hover {
   #hobbies {
     position: relative;
     /* right: 10px; */
+
     bottom: 245px;
     /* margin-bottom: 30px; */
   }
