@@ -6,8 +6,8 @@
 */
 
 body {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 /* .navbar{
@@ -16,215 +16,318 @@ body {
 } */
 
 h1 {
-    margin: 0px auto 0 auto;
-    height: 6.875rem;
-    font-size: 5.625rem;
-    font-family: 'Merienda', cursive;
-    color: #464660;
+  margin: 0px auto 0 auto;
+  height: 6.875rem;
+  font-size: 5.625rem;
+  font-family: "Merienda", cursive;
+  color: #464660;
 }
 
 h2 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 2rem;
-    color: #368B85;
-    margin-top: 80px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 2rem;
+  color: #368b85;
+  margin-top: 80px;
 }
 
-h3{
-    font-family: 'IBM Plex Mono', monospace;
-    color: #11999E;
-    font-size: 1.5rem;
+h3 {
+  font-family: "IBM Plex Mono", monospace;
+  color: #11999e;
+  font-size: 1.5rem;
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
-    color: #003638;
-    font-size: 1.2rem;
-    line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+  color: #003638;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 hr {
-    border: dotted #F5C0C0 6px;
-    border-bottom: none;
-    background-color: #F9F9F9;
-    width: 5%;
-    margin: 50px auto 50px auto;
+  border: dotted #f5c0c0 6px;
+  border-bottom: none;
+  background-color: #f9f9f9;
+  width: 5%;
+  margin: 50px auto 50px auto;
 }
 
 .githuba {
-    color: black;
+  color: black;
 }
 
 a {
-    font-family: 'Merienda', cursive;
-    color: #EAF6F6;
-    font-size: 1.2rem;
-    text-decoration: none;
-    margin: 0 8px 0 8px;
+  font-family: "Merienda", cursive;
+  color: #eaf6f6;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 8px 0 8px;
 }
 
 a:hover {
-    color: #F5C0C0;
+  color: #f5c0c0;
 }
 
 .subheading {
-    font-family: 'IBM Plex Mono', monospace;
-    margin-top: 0;
-    color: #F5C0C0;
-    font-size: 2.5rem;
+  font-family: "IBM Plex Mono", monospace;
+  margin-top: 0;
+  color: #f5c0c0;
+  font-size: 2.5rem;
 }
 
 .top-code {
-    position: absolute;
-    right: 300px;
-    top: 40px;
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
 
 .bottom-code {
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 250px;
-    bottom: 100px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 250px;
+  bottom: 100px;
 }
 
 .c_bulb {
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: 100px;
-    top: 200px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
 }
 
-.c_data{
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    right: 100px;
-    top: 400px;
+.c_data {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 100px;
+  top: 400px;
 }
 
 .mePhoto {
-    margin-top: 20px;
-    border-radius: 100%;
+  margin-top: 20px;
+  border-radius: 100%;
 }
 
 .top-container {
-    background-color: #F1E9E5;
-    margin: 40px 0px 0px 0px;
-    position: relative;
-    padding-top: 100px;
+  background-color: #f1e9e5;
+  margin: 40px 0px 0px 0px;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-    margin-top: 0px;
-    padding-bottom: 20px;
-    background-color: #F9F9F9;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  background-color: #f9f9f9;
 }
 
 .bottom-container {
-    background-color: #66BFBF;
-    padding: 20px 0 20px;
+  background-color: #66bfbf;
+  padding: 20px 0 20px;
 }
 
 .intro {
-    width: 75%;
-    margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
 .skill-row {
-    margin: 50px auto 100px auto;
-    width: 60%;
-    text-align: left;
+  margin: 50px auto 100px auto;
+  width: 60%;
+  text-align: left;
 }
 
-.skillrow-image-col{
+.skillrow-image-col {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .skillrowImage1 {
-    width: 80%;
-    border-radius: 50%;
+  width: 80%;
+  border-radius: 50%;
 }
 
 .skillrowImage2 {
-    width: 100%;
-    height: 35vh;
-    border-radius: 50%;
+  width: 100%;
+  height: 35vh;
+  border-radius: 50%;
 }
 
 .skillrowImage3 {
-    width: 80%;
-    height: 30vh;
-    border-radius: 50%;
+  width: 80%;
+  height: 30vh;
+  border-radius: 50%;
 }
 
 .skillrowdes1 {
-    margin: auto;
-    width: auto;
+  margin: auto;
+  width: auto;
 }
 
 .skillrowdes2 {
-    font-family: 'Nunito', sans-serif;
-    color: #003638;
-    font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  color: #003638;
+  font-size: 1.2rem;
 }
 
 .project_linky {
-    font-family: 'Nunito', sans-serif;;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #464660;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #464660;
 }
 
 .project_linky:hover {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
-.github-link{
-  font-family: 'Montserrat', sans-serif;
+.github-link {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   text-decoration: none;
 }
 
-.github-btn{
+.github-btn {
   border-radius: 50px;
 }
 
 .contact-me {
-    width: 60%;
-    margin: 40px auto 0px;
-    font-family: 'Nunito', sans-serif;
+  width: 60%;
+  margin: 40px auto 0px;
+  font-family: "Nunito", sans-serif;
 }
 
 .copyright {
-    color: #EAF6F6;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.05rem;
-    padding: 20px 0;
+  color: #eaf6f6;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.05rem;
+  padding: 20px 0;
 }
 
-@media (max-width: 768px) {
-  .top-code, .bottom-code, .c_bulb, .c_data {
-      display: none;
+#hobbies {
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-code,
+  .bottom-code,
+  .c_bulb,
+  .c_data {
+    display: none;
   }
 
   .intro {
-      width: 90%;
-      margin: auto;
+    width: 90%;
+    margin: auto;
   }
 
   .skill-row {
-      margin: 7% auto;
-      width: 90%;
+    margin: 7% auto;
+    width: 90%;
   }
 
   .contact-me {
-      width: 80%;
-      margin: 5% auto 0px;
+    width: 80%;
+    margin: 5% auto 0px;
   }
 
+  .subheading {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .profile img {
+    margin: 70px 0px;
+  }
+
+  h2 {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  .skillrowdes1 {
+    font-weight: 100;
+  }
+  body {
+    background-color: #f9f9f9;
+  }
+
+  .skillrowImage1 {
+    width: 300%;
+    border: 1px solid red;
+    margin-bottom: 35px;
+  }
+
+  #my_skills {
+    margin-bottom: 120px;
+    font-weight: bold;
+  }
+
+  #mycol {
+    text-align: center;
+  }
+
+  #imgg {
+    position: absolute;
+    /* top: 100px; */
+    /* right: 5px; */
+    margin: 0px auto;
+    right: 1px;
+
+    margin-top: 6rem;
+  }
+
+  #hobbies {
+    position: relative;
+    /* right: 10px; */
+    bottom: 245px;
+    /* margin-bottom: 30px; */
+  }
+
+  #my_hobbies {
+    margin-top: 90px;
+  }
+
+  #details {
+    text-align: center;
+  }
+
+  #imgg1 {
+    width: 100%;
+    position: relative;
+    top: 60px;
+  }
+
+  .copyright {
+    width: 90%;
+    margin: auto;
+  }
+
+  .skill-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movedown {
+    margin-top: 23rem;
+  }
+
+  .bottom-container {
+    margin-top: 50px;
+  }
 }
