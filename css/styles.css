@@ -139,9 +139,9 @@ a:hover {
 }
 
 .skillrow-image-col{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skillrowImage1 {
@@ -166,10 +166,11 @@ a:hover {
     width: auto;
 }
 
-.skillrowdes2 {
+.skillrowdes2 p{
     font-family: 'Nunito', sans-serif;
     color: #003638;
     font-size: 1.2rem;
+    padding-left: 7px;
 }
 
 .project_linky {
@@ -181,23 +182,30 @@ a:hover {
 
 .project_linky:hover {
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .github-link{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
-  text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .github-btn{
-  border-radius: 50px;
+    border-radius: 50px;
 }
 
 .contact-me {
     width: 60%;
     margin: 40px auto 0px;
     font-family: 'Nunito', sans-serif;
+}
+
+.contact-me a {
+    color: #11999E;
+}
+.contact-me a:hover {
+    color: #003638;
 }
 
 .copyright {
@@ -208,23 +216,22 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .top-code, .bottom-code, .c_bulb, .c_data {
-      display: none;
-  }
+    .top-code, .bottom-code, .c_bulb, .c_data {
+        display: none;
+    }
 
-  .intro {
-      width: 90%;
-      margin: auto;
-  }
+    .intro {
+        width: 90%;
+        margin: auto;
+    }
 
-  .skill-row {
-      margin: 7% auto;
-      width: 90%;
-  }
+    .skill-row {
+        margin: 7% auto;
+        width: 90%;
+    }
 
-  .contact-me {
-      width: 80%;
-      margin: 5% auto 0px;
-  }
-
+    .contact-me {
+        width: 80%;
+        margin: 5% auto 0px;
+    }
 }
