@@ -219,6 +219,30 @@ a:hover {
   margin-top: 0px;
 }
 
+@media(min-width:768px){
+  .skillrowImage1{
+    position: relative;
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+  }
+  .skillrowImage3{
+    position: relative;
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+  }
+  .skillrowImage2{
+    position: relative;
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+
+  #my_projects{
+    position: relative;
+    -ms-transform: translateY(-10%);
+    transform: translateY(-12%);
+  }
+}
+
 @media (max-width: 768px) {
   .top-code,
   .bottom-code,
