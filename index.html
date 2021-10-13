@@ -204,124 +204,190 @@
             </div>
           </div>
         </div>
-        <br>
 
         <div id="my_projects">
           <h2>Projects</h2>
-
-          <!--issue #22 by priyanka, structure projects as html tiles-->
-
-          <div class="container">
-            <section class="cms-boxes">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-4 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-features">
-                      <div class="boxes-align">
-                        <div class="small-box">
-                          <i class="fa fa-4x fa-laptop">&nbsp;</i>
-                          <h2><i>ALDO</i></h2>
-                          <p>An educational android app that provides serices like notes, online videos and visualization calculator to learn and understand deep concepts of DSA.</p>                          
-                          <button type="button" class="btn-default btn-secondary">
-                            <a href="https://github.com/SiddyDevelops">GitHub repo</a>
-                          </button>
-                        </div>
+          <!--flip cards for project-->
+          <div class="wrapper">            
+            <div class="cols">
+              <div class="col" onhoverstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front">
+                      <div class="inner">
+                        <p class="img" id="img">
+                          <img class="img" id="img" src="https://cdn.pixabay.com/photo/2021/08/19/13/24/fields-6558064_960_720.jpg" height="130" width="130" alt="proj-img">
+                        </p><br>
+                        <span class=" title text-dark">ALDO</span>
                       </div>
                     </div>
-                  </div>
-
-                  <div class="col-md-4 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-security">
-                      <div class="boxes-align">
-                        <div class="small-box">
-                          <i class="fa fa-4x fa-cog">&nbsp;</i>
-                          <h2>NOTES-FIREBASE</h2>
-                          <p>An android app to create, edit and delete notes. The notes are saved to Firebase Firestore so that the user can check their notes anytime, anywhere.</p>
-                          <button class="btn-default btn-secondary" type="button">
-                            <a href="https://github.com/SiddyDevelops/Notes-firebase">GitHub repo</a>
-                          </button>
-                        </div>
+                    <div class="back">
+                      <div class="inner px-4 py-4">
+                        <p>An educational android app that provides serices like notes, online videos and visualization calculator to learn and understand deep concepts of  DSA.  </p>                 
+                        <button class="btn-default btn-secondary mx-3 my-3" type="button">
+                          <a href="https://github.com/SiddyDevelops">GitHub repo</a>
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="row">
-                  
-                  <!--left column empty to maintain symmetry, can be added if more projects-->
-                  <div class="col-md-4 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-features">
-                      <div class="boxes-align-right">
-                        <div class="small-box">
-                          <i class="fa fa-4x fa-laptop">&nbsp;</i>
-                          <h2><i></i></h2>
-                          <p></p>
-                          <!--
-                          <button class="btn-default btn-secondary" type="button">
-                            <a href=""></a>
-                          </button> -->
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img class="img" id="img" src="https://cdn.pixabay.com/photo/2021/08/19/13/24/fields-6558064_960_720.jpg" height="130" width="130" alt="proj-img">
+                          </p>
+                          <span class=" title text-dark">NOTES-FIREBASE</span>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-security">
-                      <div class="boxes-align-right">
-                        <div class="small-box">
-                          <i class="fa fa-4x fa-cog">&nbsp;</i>
-                          <h2>SIDDY'S WALLPAPERS!</h2>
-                          <p>An android app to download wallpapers and set it as background. The wallapers are fetched from an open source API which is regulated frequently.</p>
-                          <button class="btn-secondary btn-default" type="button">
-                            <a href="https://github.com/SiddyDevelops/Download-wallpaper-and-setbackground">GitHub repo</a>
+                      <div class="back px-4 py-4">
+                        <div class="inner">
+                          <p>An android app to create, edit and delete notes. The notes are saved to Firebase Firestore so that the user can check their notes anytime, anywhere.</p>            
+                          <button class="btn-default btn-secondary" type="button">
+                            <a href="https://github.com/SiddyDevelops/Notes-firebase" target="_blank">GitHub repo</a>
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-scalability">
-                      <div class="boxes-align">
-                        <div class="small-box">
-                          <i class="fa fa-4x fa-arrows-alt" aria-hidden="true"></i>
-                          <h2>FLAPPY BIRD CLONE</h2>
+
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img class="img" id="img" src="https://cdn.pixabay.com/photo/2021/08/19/13/24/fields-6558064_960_720.jpg" height="130" width="130" alt="proj-img">
+                          </p>
+                          <span class=" title text-dark">SIDDY'S WALLPAPERS!</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>An android app to download wallpapers and set it as background. The wallapers are fetched from an open source API which is regulated frequently.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/Download-wallpaper-and-setbackground" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img class="img" id="img" src="https://cdn.pixabay.com/photo/2021/08/19/13/24/fields-6558064_960_720.jpg" height="130" width="130" alt="proj-img">
+                          </p>
+                          <span class=" title text-dark">FLAPPY BIRD CLONE</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
                           <p>A replica of the famous game: Flappy Bird. It is desgined and developed using GDX library.</p>
                           <button type="button" class="btn-default btn-secondary">
-                            <a href="https://github.com/SiddyDevelops/FlappyBird">Github repo</a>
+                            <a href="https://github.com/SiddyDevelops/FlappyBird" target="_blank">GitHub repo</a>
                           </button>
                         </div>
+                      </div>
+                    </div>
+                  </div>                
+              </div>
+           </div>
+
+          <!-- second row for adding more projects
+            <div class="cols">
+              <div class="col" onhoverstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="">
+                      <div class="inner">
+                        <p class="img" id="img">
+                          <img src="https://pixabay.com/photos/firefighters-firefighting-fire-dark-6689112/" alt="proj-img">
+                        </p><br>
+                        <span class=" title text-dark">ALDO</span>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <div class="inner px-4 py-4">
+                        <p>An educational android app that provides serices like notes, online videos and visualization calculator to learn and understand deep concepts of  DSA.  </p>                 
+                        <button class="btn-default btn-secondary mx-3 my-3" type="button">
+                          <a href="https://github.com/SiddyDevelops">GitHub repo</a>
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <!--third row, with left + center columns for extra projects if needed-->
-                <div class="row">
-                  <div class="col-md-6 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-built">
-                      <div class="boxes-align">
-                        <div class="large-box">
-                          <i class="fa fa-4x fa-heart" aria-hidden="true"></i>
-                          <h2></h2>
-                          <p></p>
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front" style="">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img src="https://pixabay.com/photos/firefighters-firefighting-fire-dark-6689112/" alt="proj-img">
+                          </p><br>
+                          <span class=" title text-dark">NOTES-FIREBASE</span>
+                        </div>
+                      </div>
+                      <div class="back px-4 py-4">
+                        <div class="inner">
+                          <p>An android app to create, edit and delete notes. The notes are saved to Firebase Firestore so that the user can check their notes anytime, anywhere.</p>            
+                          <button class="btn-default btn-secondary" type="button">
+                            <a href="https://github.com/SiddyDevelops/Notes-firebase" target="_blank">GitHub repo</a>
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 cms-boxes-outer">
-                    <div class="cms-boxes-items cms-documentation">
-                      <div class="boxes-align">
-                        <div class="large-box">
-                          <i class="fa fa-4x fa-file-code-o">&nbsp;</i>
-                          <h2></h2>
-                          <p></p>
+
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front" style="">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img src="" alt="proj-img">
+                          </p><br>
+                          <span class=" title text-dark">SIDDY'S WALLPAPERS!</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>An android app to download wallpapers and set it as background. The wallapers are fetched from an open source API which is regulated frequently.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/Download-wallpaper-and-setbackground" target="_blank">GitHub repo</a>
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front" style="">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img src="https://pixabay.com/photos/firefighters-firefighting-fire-dark-6689112/" alt="proj-img">
+                          </p><br>
+                          <span class=" title text-dark">FLAPPY BIRD CLONE</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>A replica of the famous game: Flappy Bird. It is desgined and developed using GDX library.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/FlappyBird" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                
               </div>
-            </section>
+           </div>
+          -->
           </div>
+          </section>
+          </div>
+          <br>
           <!--
           <div class="skill-row row">
             <div class="col">
@@ -405,6 +471,7 @@
             </div> -->
           </div>         
         </div>
+        <br>
         <div id="my_hobbies" class="myhobbies">
           <div class="skill-row row">
             <!-- <div id="imgg1" class="col-4 skillrow-image-col">
@@ -462,6 +529,6 @@
       <p class="copyright">© 2021 Designed and Developed By Siddharth Singh.</p>
     </div>
 
-    <!---->
+    
   </body>
 </html>
