@@ -54,6 +54,9 @@ hr {
 .githuba {
   color: black;
 }
+#github{
+  margin-top: 30px;
+}
 
 a {
   font-family: "Merienda", cursive;
@@ -196,7 +199,7 @@ a:hover {
 }
 
 .contact-me {
-  width: 60%;
+  width: 40%;
   margin: 40px auto 0px;
   font-family: "Nunito", sans-serif;
 }
@@ -207,7 +210,12 @@ a:hover {
 .contact-me a:hover {
   color: #003638;
 }
-
+#contact_me h2{
+  margin-top: 0;
+}
+#contact_me{
+  transform: translateY(-40%);
+}
 .copyright {
   color: #eaf6f6;
   font-family: "Nunito", sans-serif;
@@ -217,30 +225,33 @@ a:hover {
 
 #hobbies {
   margin-top: 0px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+#my_projects{
+  transform: translateY(-10%);
 }
 
-@media(min-width:768px){
-  .skillrowImage1{
-    position: relative;
-    -ms-transform: translateY(-20%);
-    transform: translateY(-20%);
-  }
-  .skillrowImage3{
-    position: relative;
-    -ms-transform: translateY(-20%);
-    transform: translateY(-20%);
-  }
-  .skillrowImage2{
-    position: relative;
-    -ms-transform: translateY(20%);
-    transform: translateY(20%);
-  }
+#my_projects h2{
+  text-align: center;
+  margin-bottom: 35px;
+}
 
-  #my_projects{
-    position: relative;
-    -ms-transform: translateY(-10%);
-    transform: translateY(-12%);
-  }
+#mycol{
+  text-align: center;
+}
+#details{
+  text-align: center;
+}
+.myhobbies{
+  transform: translateY(-50%);
+}
+
+#first_hr{
+  transform: translateY(60%);
+}
+#second_hr{
+  transform: translateY(-1500%);
 }
 
 @media (max-width: 768px) {
@@ -325,13 +336,6 @@ a:hover {
     padding: 0px 15px;
   }
 
-  #hobbies {
-    position: relative;
-    /* right: 10px; */
-    bottom: 245px;
-    /* margin-bottom: 30px; */
-  }
-
   #my_hobbies {
     margin-top: 90px;
   }
@@ -358,11 +362,22 @@ a:hover {
     align-items: center;
   }
 
-  .movedown {
+  /* .movedown {
     margin-top: 21.5rem;
-  }
+  } */
 
   .bottom-container {
     margin-top: 50px;
+  }
+
+  .contact_me h2{
+    margin-bottom: 0;
+  }
+  .contant_me p{
+    margin-top: 60px;
+  }
+
+  #my_projects{
+    margin-top: 175px;
   }
 }
