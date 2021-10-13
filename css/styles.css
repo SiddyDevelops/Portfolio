@@ -144,21 +144,18 @@ a:hover {
   align-items: center;
 }
 
-.skillrowImage1 {
-  width: 80%;
+.skillrowImage {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
 }
 
-.skillrowImage2 {
-  width: 70%;
-  height: 32vh;
-  border-radius: 50%;
-}
-
-.skillrowImage3 {
-  width: 80%;
-  height: 30vh;
-  border-radius: 50%;
+.one {
+  margin-bottom: 40px;
 }
 
 .skillrowdes1 {
@@ -340,5 +337,19 @@ a:hover {
 
   .bottom-container {
     margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .skillrowImage {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .skillrowImage {
+    width: 280px;
+    height: 280px;
   }
 }
