@@ -225,9 +225,16 @@ a:hover {
 }
 
 #hobbies {
-  margin-top: 0px;
   text-align: center;
   margin-bottom: 35px;
+  margin-top: 0;
+}
+@media (max-width: 768px){
+  #hobbies {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: -125px;
+  }
 }
 #my_projects{
   transform: translateY(-10%);
@@ -412,8 +419,10 @@ a:hover {
 
 .col{
   width: calc(25% - 2rem);
-  margin: 1rem;
+  margin-left: 1rem;
+
   cursor: pointer;
+
 }
 
 .container{
@@ -422,6 +431,9 @@ a:hover {
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
           margin-bottom: 10px;
+}
+.container-1{
+  margin-bottom: 10px;
 }
 
 .front,
