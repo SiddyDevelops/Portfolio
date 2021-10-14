@@ -392,15 +392,6 @@ a:hover {
           box-sizing: border-box;
 }
 
-h1{
-  font-size: 5rem;
-  font-weight: normal;
-  color: #444;
-  text-align: center;
-  margin: 1rem 0;
-  font-family: "IBM Plex Mono", monospace;
-}
-
 .wrapper{
   width: 90%;
   margin: 0 auto;
