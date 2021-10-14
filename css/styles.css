@@ -271,6 +271,7 @@ a:hover {
 	-ms-transform: scale(0.93);
 	transform: scale(0.93);
 	color: #fff;
+  border-radius: 35%;
 }
 
 .icons:hover:after {
