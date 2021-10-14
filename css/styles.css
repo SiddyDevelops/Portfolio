@@ -1,8 +1,8 @@
 /*
-    font-family: 'IBM Plex Mono', monospace;
-    font-family: 'Merienda', cursive;
-    font-family: 'MonteCarlo', cursive;
-    font-family: 'Nunito', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Merienda', cursive;
+font-family: 'MonteCarlo', cursive;
+font-family: 'Nunito', sans-serif;
 */
 
 body {
@@ -10,10 +10,35 @@ body {
   margin: 0;
   background-color: #f9f9f9;
 }
+ul{
+  margin: auto;
+}
+.navbar-brand{
+position: relative;
+left: 10px;
+font-weight: bold;
+font-size:35px
+}
+.nav-link{
+  font-size: 25px;
+  margin-left: 40px;
+  font-weight: 400;
+}
+.nav-link:hover{
+  font-size: 30px;
+}
+.nav-brand:hover{
+  font-size:45px;
+}
+.container-fluid{
+background-color: rgb(204, 240, 204);
+}
+.link-social:hover{
+color: blue;
+}
 
-/* .navbar{
-    position: sticky;
-    top: 0px;
+/* #my_skills{
+border-top: 2px dotted green;
 } */
 
 h1 {
@@ -45,7 +70,7 @@ p {
 }
 
 hr {
-  border: dotted #f5c0c0 6px;
+  border: dotted grey 6px;
   border-bottom: none;
   background-color: #f9f9f9;
   width: 5%;
@@ -68,9 +93,11 @@ a {
 }
 
 a:hover {
-  color: #f5c0c0;
+  color: orange;
 }
-
+/* .nav-link {
+    margin-right: 50px;
+} */
 .subheading {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
