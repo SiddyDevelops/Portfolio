@@ -261,6 +261,7 @@ a:hover {
   .c_bulb,
   .c_data {
     display: none;
+  
   }
 
   .intro {
@@ -420,6 +421,7 @@ a:hover {
           transform-style: preserve-3d;
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
+          margin-bottom: 10px;
 }
 
 .front,
