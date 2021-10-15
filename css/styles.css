@@ -10,7 +10,10 @@ body {
   margin: 0;
   background-color: #f9f9f9;
 }
+.navbar-nav > .active { 
+  color: rgba(0, 0, 0, 0.9) !important;
 
+}
 /* .navbar{
     position: sticky;
     top: 0px;
@@ -64,6 +67,7 @@ a {
   color: #eaf6f6;
   font-size: 1.2rem;
   text-decoration: none;
+
   margin: 0 8px 0 8px;
 }
 
