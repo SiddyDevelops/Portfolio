@@ -637,3 +637,7 @@ a:hover {
     margin: 0 0 2rem 0;
   }
 }
+
+#navbar{
+ background-color: #d3d4ca  !important;
+}
