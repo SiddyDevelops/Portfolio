@@ -607,36 +607,13 @@ a:hover {
   font-family: "IBM Plex Mono", monospace;
 }
 
-.icon-container {
-  width: 200px;
-  margin-left: 80px;
-}
 
-.icons:before {
-	font-size: 48px;
-	line-height: 90px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	display: block;
-	-webkit-font-smoothing: antialiased;
-}
-
-.icons:hover {
-	background: #11999e;
-	-webkit-transform: scale(0.93);
-	-moz-transform: scale(0.93);
-	-ms-transform: scale(0.93);
-	transform: scale(0.93);
-	color: #fff;
-  border-radius: 35%;
-}
-
-.icons:hover:after {
-	-webkit-animation: sonarEffect 1.3s ease-out 75ms ;
-	-moz-animation: sonarEffect 1.3s ease-out 75ms ;
-	animation: sonarEffect 1.3s ease-out 75ms ;
+@media screen and (max-width: 1000px) {
+  .icon-container {
+    width: 200px;
+    margin-left: 10vh;
+  }
+    
 }
 
 @media screen and (max-width: 64rem){
