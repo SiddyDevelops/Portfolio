@@ -329,4 +329,16 @@
       <p class="copyright">© 2021 Designed and Developed By Siddharth Singh.</p>
     </div>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+  "use strict";
+
+  $('ul.navbar-nav > li > a').click(function(e) {
+    // e.preventDefault();
+    $('ul.navbar-nav > li > a').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+  </script>
 </html>

@@ -9,7 +9,10 @@ body {
   text-align: center;
   margin: 0;
 }
+.navbar-nav > .active { 
+  color: rgba(0, 0, 0, 0.9) !important;
 
+}
 /* .navbar{
     position: sticky;
     top: 0px;
@@ -22,9 +25,7 @@ h1 {
   font-family: "Merienda", cursive;
   color: #464660;
 }
-.selected {
-  color: rgba(0, 0, 0, 0.9) !important;
-}
+
 h2 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
