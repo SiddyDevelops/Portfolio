@@ -616,10 +616,6 @@ a:hover {
 
 
 @media screen and (max-width: 1000px) {
-  .icon-container {
-    width: 200px;
-    margin-left: 10vh;
-  }
     
 }
 
