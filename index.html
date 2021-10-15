@@ -190,13 +190,9 @@
         <div id="my_skills">
           <h2>My Skills</h2>
           <div class="skill-row row">
-            <div class="col-4 skillrow-image-col">
-              <img
-                class="skillrowImage1"
-                src="images/proLang.jpg"
-                alt="Programing Languages"
-              />
-            </div>
+            <!-- <div class="col-4 skillrow-image-col">
+                        <img class="skillrowImage1" src="images/proLang.jpg" alt="Programing Languages" />
+                    </div> -->
             <div id="mycol" class="col">
               <h3>Programing Languages</h3>
               <p class="skillrowdes1">
@@ -204,130 +200,242 @@
                 <b>Python</b>.<br />
                 I can design and develop <b>Android Applications</b>.<br />
                 I am a beginner in <b>Web Development</b>.
-              </p>
+              </p><br>
             </div>
           </div>
         </div>
+
         <div id="my_projects">
-          <div class="skill-row row">
-            <div class="col">
-              <h2>Projects</h2>
-              <div class="movedown">
-                <ul>
-                  <li class="skillrowdes2">
-                    <strong><a class="project_linky" href="">Aldo: </a></strong>
-                    <p>
-                      An educational android app that provides serices like
-                      notes, online videos and visualization calculator to learn
-                      and understand deep concepts of DSA.
-                    </p>
-                  </li>
-                  <!-- <br> -->
-                  <li class="skillrowdes2">
-                    <strong
-                      ><a
-                        class="project_linky"
-                        href="https://github.com/SiddyDevelops/Notes-firebase"
-                        >Notes-firebase:
-                      </a></strong
-                    >
-                    <p>
-                      An android app to create, edit and delete notes. The notes
-                      are saved to Firebase Firestore so that the user can check
-                      their notes anytime, anywhere.
-                    </p>
-                  </li>
-                  <!-- <br> -->
-                  <li class="skillrowdes2">
-                    <strong
-                      ><a
-                        class="project_linky"
-                        href="https://github.com/SiddyDevelops/Download-wallpaper-and-setbackground"
-                        >Siddy's Wallapapers:
-                      </a></strong
-                    >
-                    <p>
-                      An android app to download wallpapers and set it as
-                      background. The wallapers are fetched from an open source
-                      API which is regulated frequently.
-                    </p>
-                  </li>
-                  <!-- <br> -->
-                  <li class="skillrowdes2">
-                    <strong
-                      ><a
-                        class="project_linky"
-                        href="https://github.com/SiddyDevelops/FlappyBird"
-                        >Flappy Bird Clone:
-                      </a></strong
-                    >
-                    <p>
-                      A replica of the famous game: Flappy Bird. It is desgined
-                      and developed using GDX library.
-                    </p>
-                  </li>
-                </ul>
+          <h2>Projects</h2>
+          <!--flip cards for project-->
+          <div class="wrapper">            
+            <div class="row featurette">
+              <div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3" onhoverstart="this.classList.toggle('hover');">
+                  <div class="container container-1">
+                    <div class="front">
+                      <div class="inner">
+                        <p class="img" id="img">
+                          <img class="img" id="img" src="images/aldo_logo.PNG" height="130" width="130" alt="proj-img">
+                        </p><br>
+                        <span class=" title text-dark">ALDO</span>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <div class="inner px-4 py-4">
+                        <p>An educational android app that provides serices like notes, online videos and visualization calculator to learn and understand deep concepts of  DSA.  </p>                 
+                        <button class="btn-default btn-secondary mx-3 my-3" type="button">
+                          <a href="https://github.com/SiddyDevelops" target="_blank">GitHub repo</a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img class="img" id="img" src="images/notes_logo.jpg" height="130" width="130" alt="proj-img">
+                          </p>
+                          <span class=" title text-dark">NOTES-FIREBASE</span>
+                        </div>
+                      </div>
+                      <div class="back px-4 py-4">
+                        <div class="inner">
+                          <p>An android app to create, edit and delete notes. The notes are saved to Firebase Firestore so that the user can check their notes anytime, anywhere.</p>            
+                          <button class="btn-default btn-secondary" type="button">
+                            <a href="https://github.com/SiddyDevelops/Notes-firebase" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container container-1">
+                      <div class="front">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img class="img" id="img" src="images/wallpaper_logo.png" height="130" width="130" alt="proj-img">
+                          </p>
+                          <span class=" title text-dark">SIDDY'S WALLPAPERS!</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>An android app to download wallpapers and set it as background. The wallapers are fetched from an open source API which is regulated frequently.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/Download-wallpaper-and-setbackground" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container container-1">
+                      <div class="front">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img class="img" id="img" src="images/flappy_logo.jpg" height="130" width="130" alt="proj-img">
+                          </p>
+                          <span class=" title text-dark">FLAPPY BIRD CLONE</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>A replica of the famous game: Flappy Bird. It is desgined and developed using GDX library.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/FlappyBird" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                
               </div>
+           </div>
 
-              <p>
-                Check-out my some of my other exciting projects at<a
-                  class="githuba"
-                  href="https://github.com/SiddyDevelops"
-                  >Github</a
-                >.
-              </p>
-            </div>
+          <!-- second row for adding more projects
+            <div class="cols">
+              <div class="col" onhoverstart="this.classList.toggle('hover');">
+                  <div class="container">
+                    <div class="front" style="">
+                      <div class="inner">
+                        <p class="img" id="img">
+                          <img src="https://pixabay.com/photos/firefighters-firefighting-fire-dark-6689112/" alt="proj-img">
+                        </p><br>
+                        <span class=" title text-dark">ALDO</span>
+                      </div>
+                    </div>
+                    <div class="back">
+                      <div class="inner px-4 py-4">
+                        <p>An educational android app that provides serices like notes, online videos and visualization calculator to learn and understand deep concepts of  DSA.  </p>                 
+                        <button class="btn-default btn-secondary mx-3 my-3" type="button">
+                          <a href="https://github.com/SiddyDevelops">GitHub repo</a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-            <div id="imgg" class="col-xl-5 skillrow-image-col">
-              <img
-                class="skillrowImage2"
-                src="images/ProjectManagement.jpg"
-                alt="Projects"
-              />
-            </div>
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front" style="">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img src="https://pixabay.com/photos/firefighters-firefighting-fire-dark-6689112/" alt="proj-img">
+                          </p><br>
+                          <span class=" title text-dark">NOTES-FIREBASE</span>
+                        </div>
+                      </div>
+                      <div class="back px-4 py-4">
+                        <div class="inner">
+                          <p>An android app to create, edit and delete notes. The notes are saved to Firebase Firestore so that the user can check their notes anytime, anywhere.</p>            
+                          <button class="btn-default btn-secondary" type="button">
+                            <a href="https://github.com/SiddyDevelops/Notes-firebase" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front" style="">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img src="" alt="proj-img">
+                          </p><br>
+                          <span class=" title text-dark">SIDDY'S WALLPAPERS!</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>An android app to download wallpapers and set it as background. The wallapers are fetched from an open source API which is regulated frequently.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/Download-wallpaper-and-setbackground" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col" onhoverstart="this.classList.toggle('hover');">
+                    <div class="container">
+                      <div class="front" style="">
+                        <div class="inner">
+                          <p class="img" id="img">
+                            <img src="https://pixabay.com/photos/firefighters-firefighting-fire-dark-6689112/" alt="proj-img">
+                          </p><br>
+                          <span class=" title text-dark">FLAPPY BIRD CLONE</span>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <div class="inner">
+                          <p>A replica of the famous game: Flappy Bird. It is desgined and developed using GDX library.</p>
+                          <button type="button" class="btn-default btn-secondary">
+                            <a href="https://github.com/SiddyDevelops/FlappyBird" target="_blank">GitHub repo</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                
+              </div>
+           </div>
+          -->
           </div>
+          </section>
+          </div>
+          <!-- <br> -->
+          </div>         
         </div>
-        <div id="my_hobbies">
+        <!-- <br> -->
+        <div id="my_hobbies" class="myhobbies">
           <div class="skill-row row">
-            <div id="imgg1" class="col-4 skillrow-image-col">
-              <img
-                class="skillrowImage3"
-                src="images/hobbies.png"
-                alt="Hobbies Image"
-              />
-            </div>
             <div class="col">
               <h2 id="hobbies">Hobbies</h2>
               <p id="details" class="skillrowdes1">
-                My hobbies are binge watching movies and listening to music. 🎵
-                I also play guitar 🎸 and read blogs. 📖
+                When I'm not coding, I like to binge movie. I am also an avid
+                guitarist 🎸 and fond of great music 🎵. I also like reading
+                blogs 📖.
               </p>
             </div>
           </div>
         </div>
       </div>
-      <hr />
-      <div id="contact_me" class="contact-me">
+      <hr id="second_hr" />
+      <div id="contact_me">
         <h2>Get In Touch</h2>
         <h3>Lets get connected!</h3>
         <p class="contact-me">
-          Follow me on <a href="https://github.com/SiddyDevelops">Github</a> and
-          <a href="https://www.linkedin.com/in/siddharth-singh-08/">LinkedIn</a>
+          Follow me on
+          <a href="https://github.com/SiddyDevelops" target="_blank">Github</a>
+          and
+          <a
+            href="https://www.linkedin.com/in/siddharth-singh-08/"
+            target="_blank"
+            >LinkedIn</a
+          >
           to see my awesome projects and also to contribute together in
           projects.
         </p>
       </div>
     </div>
     <div class="bottom-container">
-      <a href="https://instagram.com/_siddy_08_">Instagram</a>
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/siddharth-singh-08/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://github.com/SiddyDevelops">Github</a>
+      <div class="icon-container justify-content-center">
+        <a href="https://instagram.com/_siddy_08_" target="_blank"><img src="favicon/instagram.png" class="icons"></a>
+        <a class="footer-link" href="https://www.linkedin.com/in/siddharth-singh-08/" target="_blank">
+          <img src="favicon/linkedin.png" class="icons">
+        </a>
+        <a class="footer-link" href="https://github.com/SiddyDevelops" target="_blank">
+          <img src="favicon/github.png" class="icons">
+        </a>
+      </div>
       <p class="copyright">© 2021 Designed and Developed By Siddharth Singh.</p>
     </div>
+
+    
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script>
