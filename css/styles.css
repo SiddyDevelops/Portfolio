@@ -255,10 +255,17 @@ a:hover {
   transform: translateY(-50%);
 }
 
-.icon-container {
+/* .icon-container {
   margin-top: 2vh;
   display: flex;
   justify-content: center;
+} */
+
+.icon-container {
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons {
