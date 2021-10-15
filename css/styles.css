@@ -256,9 +256,9 @@ a:hover {
 }
 
 .icon-container {
-  width: 500px;
-  margin-left: 68vh;
   margin-top: 2vh;
+  display: flex;
+  justify-content: center;
 }
 
 .icons {
