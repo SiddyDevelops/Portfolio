@@ -79,10 +79,6 @@ a {
   font-weight: bold;
 }
 
-.navbar-brand{
-  font-size: 2rem;
-}
-
 .subheading {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
@@ -445,10 +441,6 @@ a {
   #my_projects {
     margin-top: 175px;
     background-color: #f9f9f9;
-  }
-
-  .navbar-brand{
-    font-size: 1rem;
   }
 }
 
