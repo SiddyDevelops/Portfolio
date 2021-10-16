@@ -281,7 +281,64 @@ a:hover {
     margin-bottom: 35px;
     margin-top: -125px;
   }
+  #my_hobbies{
+    text-align: center;
+    margin: 50px 0;
+    padding: 6% 0;
+  }
 }
+@media (max-width: 675px) {
+#my_hobbies{
+  text-align: center;
+    margin: 20px 0;
+  padding: 9% 0;
+}
+}
+@media (max-width: 643px) {
+  #my_hobbies{
+    text-align: center;
+      margin: 5px 0;
+    padding: 10% 0;
+  }
+  }
+  @media (max-width: 597px) {
+    #my_hobbies{
+      text-align: center;
+        margin: 0px 0;
+      padding: 17% 0;
+    }
+    }
+    @media (max-width: 538px) {
+      #my_hobbies{
+        text-align: center;
+          margin-bottom: 0px;
+        padding: 19% 0;
+      }
+      }
+    @media (max-width: 511px) {
+      #my_hobbies{
+        text-align: center;
+          margin: 0px 0;
+        padding: 8% 0;
+      }
+      }
+      
+      @media (max-width: 376px) {
+        #my_hobbies{
+          text-align: center;
+            margin: 0px 0;
+          padding: 16% 0;
+        }
+        }
+        @media (max-width: 289px) {
+          #my_hobbies{
+            text-align: center;
+              margin: 0px 0;
+            padding: 25% 0;
+          }
+          }
+    
+      
 #my_projects {
   transform: translateY(-10%);
 }
