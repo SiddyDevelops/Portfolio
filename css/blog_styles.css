@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    margin: 0px auto 0 auto;
+    height: 6.875rem;
+    font-size: 5.625rem;
+    font-family: "Merienda", cursive;
+    color: #464660;
+}
+
+h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 2rem;
+    color: #368b85;
+    margin-top: 80px;
+}
+  
+h3 {
+    font-family: "IBM Plex Mono", monospace;
+    color: #11999e;
+    font-size: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
