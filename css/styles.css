@@ -70,8 +70,17 @@ a {
   margin: 0 8px 0 8px;
 }
 
-a:hover {
-  color: #f5c0c0;
+.nav-item:hover{
+  transition: all 0.25s ease-in-out;
+}
+
+.nav-item:hover{
+  background: #f5c0c0;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  font-size: 2rem;
 }
 
 .subheading {
@@ -436,6 +445,10 @@ a:hover {
   #my_projects {
     margin-top: 175px;
     background-color: #f9f9f9;
+  }
+
+  .navbar-brand{
+    font-size: 1rem;
   }
 }
 
