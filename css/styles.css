@@ -146,17 +146,42 @@ a:hover {
   color: #fff;
   padding-top: 1%;
 }
+
 #my_skills h2{
   margin-bottom: 90px;
 }
 .skill_img{
-  height: 150px;
-  width: 160px;
+  
+  height: 200px;
+  width: 190px;
   border-radius: 50%;
   margin: 20px;
 }
+@media (max-width: 1045px) {
+  #my_skills {
+    padding: 8% 2%;
+  }
+  em{
+    display: block;
+  }
+  .skill_img{
+    height: 180px;
+    width: 180px;
+ }
+}
 
-
+@media (max-width: 940px) {
+  #my_skills {
+    padding: 8% 2%;
+  }
+  em{
+    display: block;
+  }
+  .skill_img{
+    height: 150px;
+    width: 150px;
+ }
+}
 .skill-row {
   margin: 50px auto 100px auto;
   width: 60%;
