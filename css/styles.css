@@ -140,6 +140,24 @@ a:hover {
   margin: auto;
 }
 
+#my_skills{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  padding-top: 1%;
+}
+#my_skills h2{
+  margin-bottom: 90px;
+}
+.skill_img{
+  height: 150px;
+  width: 160px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
 .skill-row {
   margin: 50px auto 100px auto;
   width: 60%;

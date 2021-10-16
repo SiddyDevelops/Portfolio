@@ -12,11 +12,15 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -189,22 +193,39 @@
       <div>
         <div id="my_skills">
           <h2>My Skills</h2>
-          <div class="skill-row row">
-            <!-- <div class="col-4 skillrow-image-col">
-                        <img class="skillrowImage1" src="images/proLang.jpg" alt="Programing Languages" />
-                    </div> -->
-            <div id="mycol" class="col">
-              <h3>Programing Languages</h3>
-              <p class="skillrowdes1">
-                I can code in <b>C/C++</b>, <b>Java</b>, and
-                <b>Python</b>.<br />
-                I can design and develop <b>Android Applications</b>.<br />
-                I am a beginner in <b>Web Development</b>.
-              </p><br>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images\c_cpp.jpeg" class="skill_img" alt="">
+                <em>I can code in C/C++</em>
+              </div>
+              <div class="carousel-item">
+                <img src="images\java_hack.png" class="skill_img" alt="">
+                <em>I can code in Java</em>
+              </div>
+              <div class="carousel-item">
+                <img src="images\python_hack.png" class="skill_img" alt="">
+                <em>I can code in Python</em>
+              </div>
+              <div class="carousel-item">
+                <img src="images\android_hack.png" class="skill_img" alt="">
+                <em>I can design and develop Android Applications</em>
+              </div>
+              <div class="carousel-item">
+                <img src="images\web_hack.jfif" class="skill_img" alt="">
+                <em>I am a beginner in Web Development</em>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-        </div>
-
+          </div>
         <div id="my_projects">
           <h2>Projects</h2>
           <!--flip cards for project-->
