@@ -77,7 +77,7 @@ a {
 }
 
 .nav-item:hover,.navbar-nav > li>a.active{
-  background: #f5c0c0;
+  /* background: #f5c0c0; */
   font-weight: bold;
 }
 
