@@ -379,13 +379,11 @@ a {
 }
 
 .icons {
-  width: 45px;
   padding: 8px;
+  color: #464660;
 }
 
 .icons:before {
-  font-size: 48px;
-  line-height: 90px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -400,7 +398,7 @@ a {
   -moz-transform: scale(0.93);
   -ms-transform: scale(0.93);
   transform: scale(0.93);
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-radius: 35%;
 }
 
