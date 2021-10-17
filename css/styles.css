@@ -148,18 +148,19 @@ a {
 #my_skills{
   padding: 7% 15%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #FFC0CB;
   color: #fff;
   padding-top: 1%;
 }
 
 #my_skills h2{
-  margin-bottom: 90px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .skill_img{
   
-  height: 200px;
-  width: 190px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin: 20px;
 }
@@ -171,8 +172,8 @@ a {
     display: block;
   }
   .skill_img{
-    height: 180px;
-    width: 180px;
+    height: 100px;
+    width: 100px;
  }
 }
 
@@ -184,8 +185,8 @@ a {
     display: block;
   }
   .skill_img{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
  }
 }
 .skill-row {
@@ -725,10 +726,10 @@ a {
 }
 .btn, .btn-secondary{
   font-family: inherit!important;
-  color: lawngreen;
+  color: rgb(255, 255, 255);
 }
 .btn-default {
-  background-color: #348bd7 ;
+  background-color: #FFC0CB ;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
