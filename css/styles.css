@@ -1,14 +1,7 @@
-/*
-    font-family: 'IBM Plex Mono', monospace;
-    font-family: 'Merienda', cursive;
-    font-family: 'MonteCarlo', cursive;
-    font-family: 'Nunito', sans-serif;
-*/
-
 body {
   text-align: center;
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: black;
 }
 .navbar-nav > .active { 
   color: rgba(0, 0, 0, 0.9) !important;
@@ -23,20 +16,20 @@ h1 {
   margin: 0px auto 0 auto;
   height: 6.875rem;
   font-size: 5.625rem;
-  font-family: "Merienda", cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #464660;
 }
 
 h2 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 2rem;
-  color: #368b85;
-  margin-top: 80px;
+  margin-top: 60px;
+  color: white;
 }
 
 h3 {
   font-family: "IBM Plex Mono", monospace;
-  color: #11999e;
+  color: white;
   font-size: 1.5rem;
 }
 
@@ -63,7 +56,7 @@ hr {
 }
 
 a {
-  font-family: "Merienda", cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #eaf6f6;
   font-size: 1.2rem;
   text-decoration: none;
@@ -78,7 +71,7 @@ a:hover {
 .subheading {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #f5c0c0;
+  color: darkblue;
   font-size: 2.5rem;
 }
 
@@ -118,7 +111,7 @@ a:hover {
 }
 
 .top-container {
-  background-color: #FCE4EC;
+  background-color: lightgray;
   margin: 40px 0px 0px 0px;
   position: relative;
   padding-top: 100px;
@@ -127,7 +120,7 @@ a:hover {
 .middle-container {
   margin-top: 0px;
   padding-bottom: 20px;
-  background-color: #f9f9f9;
+  background-color: grey;
 }
 
 .bottom-container {
@@ -170,8 +163,9 @@ a:hover {
 }
 
 .skillrowdes1 {
-  margin: auto;
+  margin-bottom: 0px;
   width: auto;
+  color: whitesmoke;
 }
 
 .skillrowdes2 p {
@@ -207,13 +201,15 @@ a:hover {
   width: 40%;
   margin: 40px auto 0px;
   font-family: "Nunito", sans-serif;
+  color: #66bfbf;
 }
 
 .contact-me a {
   color: #11999e;
+  font-weight: bolder;
 }
 .contact-me a:hover {
-  color: #003638;
+  color: blue;
 }
 #contact_me h2{
   margin-top: 0;
@@ -230,9 +226,10 @@ a:hover {
 
 #hobbies {
   text-align: center;
-  margin-bottom: 35px;
-  margin-top: 0;
+  /* margin-bottom: 35px; */
+  margin-top: 20px;
 }
+
 @media (max-width: 768px){
   #hobbies {
     text-align: center;
