@@ -5,7 +5,13 @@
 body {
     text-align: center;
     margin: 0;
-    background-color: #f9f9f9;
+    background-color: #FCEBEC;
+}
+
+.body {
+    text-align: center;
+    margin: 0;
+    background-color: #FCEBEC;
 }
 
 h1 {
@@ -67,6 +73,7 @@ img {
 .title {
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;     
+    color: #11999e;
 }
 
 .content {
