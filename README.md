@@ -26,7 +26,11 @@ https://siddydevelops.github.io/My-Personalized-Website/
 
 ## Acknowledgements
 
- - [Icons](https://www.freepik.com/)
- - [Images](https://www.freepik.com/)
+ - Contributors:
+ 
+ <a href="https://github.com/SiddyDevelops/My-Personalized-Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SiddyDevelops/My-Personalized-Website" />
+</a>
+
 
   
