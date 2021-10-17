@@ -2,6 +2,7 @@ body {
   text-align: center;
   margin: 0;
   background-color: #f9f9f9;
+  position: relative;
 }
 .navbar-nav > .active {
   color: rgba(0, 0, 0, 0.9) !important;
@@ -92,8 +93,8 @@ a {
   transition: all 0.25s ease-in-out;
 }
 
-.nav-item:hover{
-  background: #f5c0c0;
+.nav-item:hover,.navbar-nav > li>a.active{
+  /* background: #f5c0c0; */
   font-weight: bold;
 }
 
