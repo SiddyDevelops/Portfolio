@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 */
 
+html {
+  scroll-padding-top: 60px;
+}
+
 body {
   text-align: center;
   margin: 0;
@@ -287,12 +291,14 @@ a {
   #hobbies {
     text-align: center;
     margin-bottom: 35px;
-    margin-top: -125px;
   }
   #my_hobbies{
     text-align: center;
     margin: 50px 0;
     padding: 6% 0;
+  }
+  #contact_me {
+    transform: none;
   }
 }
 @media (max-width: 675px) {
