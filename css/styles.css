@@ -137,7 +137,7 @@ a {
 }
 
 .bottom-container {
-  background-color: #66bfbf;
+  background-color: #FFC0CB;
   padding: 20px 0 20px;
 }
 
@@ -272,7 +272,7 @@ a {
   transform: translateY(-40%);
 }
 .copyright {
-  color: #eaf6f6;
+  color: #303030;
   font-family: "Nunito", sans-serif;
   font-size: 1.05rem;
   padding: 20px 0;
