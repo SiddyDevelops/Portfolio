@@ -143,9 +143,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact_me">Contact me</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blogs.html">Blogs</a>
-              </li>
               <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li> -->
@@ -154,6 +151,15 @@
         </div>
       </nav>
     </header>
+
+    <div class="fab-toggle" title="Blogs by Siddy">📝</div>
+    <div class="fab-container">
+      <div class="fab-content--top">
+        <h4>My Blogs</h4>
+      </div>
+      <div class="fab-content--inner">
+      </div>
+    </div>
 
     <div class="top-container">
       <img class="top-code" src="images/coding2.svg" alt="" />
@@ -453,6 +459,50 @@
   <script>
     $(document).ready(function() {
   "use strict";
+
+  const projects = [
+      {
+        title: "Publishing android libraries to Jitpack with Gradle 7.+",
+        description: "Android frameworks and libraries (or just libraries in .",
+        image: "images/blog1.jpeg",
+        link: "https://medium.com/adg-vit/publishing-android-libraries-to-jitpack-with-gradle-7-4b932e849284"
+      },
+      {
+        title: "Top Android UI Libraries",
+        description: "Using libraries that are easily available over Github is one of the best ways to add interactive...",
+        image: "https://miro.medium.com/max/997/1*AUyMKHlP2Vzl2FpOh_jiqg.gif",
+        link: "https://medium.com/adg-vit/top-android-ui-libraries-81471af69256"
+      },
+      {
+        title: "Coming Soon...",
+        description: "Blog's are underway, follow my Medium Handle so that you dont miss any of my new blogs.",
+        image: "https://neilpatel.com/wp-content/uploads/2018/10/blog.jpg",
+        link: "https://medium.com/@SiddyDevelops"
+      },
+  ];
+
+  Object.keys(projects).map(project => {
+    $('.fab-content--inner').append(`
+    <div class="fab-content">
+          <div class="fab-content--title">
+            ${projects[project].title}
+          </div>
+          <div class="fab-content--image">
+            <img src="${projects[project].image}" />
+          </div>
+          <div class="fab-content--text">
+            ${projects[project].description}
+          </div>
+          <div class="fab-content--readmore">
+            <a href="${projects[project].link}" class="fab-content--btn">Read More</a>
+          </div>
+        </div>
+      `);
+  });
+
+  $('.fab-toggle').click(() => {
+    $('.fab-container').toggle(250);
+  });
 
   $('ul.navbar-nav > li > a').click(function(e) {
     // e.preventDefault();

@@ -19,6 +19,79 @@ body {
     top: 0px;
 } */
 
+.fab-container {
+  height: 500px;
+  width: 400px;
+  position: fixed;
+  background-color: #f5c0c0;
+  z-index: 5;
+  right: 11vh;
+  bottom: 3vh;
+  border-radius: 10px;
+  overflow-y: scroll;
+  display: none;
+}
+
+.fab-content--top {
+  background-color: #b18989;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px 10px 0 0;
+}
+
+.fab-content {
+  display: grid;
+  grid-template-areas:
+    "image title link"
+    "image desc desc";
+  padding: 10px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.fab-content--image {
+  margin-right: 10px;
+  grid-area: image;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab-content--image img {
+  width: 100px;
+  height: auto;
+}
+
+.fab-content--title {
+  grid-area: title;
+  text-align: left;
+  font-weight: bold;
+}
+
+.fab-content--text {
+  grid-area: desc;
+  text-align: left;
+}
+
+.fab-content--readmore {
+  grid-area: link;
+}
+
+.fab-toggle {
+  font-size: 1.5rem;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: #f5c0c0;
+  bottom: 3vh;
+  right: 3vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 h1 {
   margin: 0px auto 0 auto;
   height: 6.875rem;
@@ -72,11 +145,12 @@ a {
   margin: 0 8px 0 8px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   transition: all 0.25s ease-in-out;
 }
 
-.nav-item:hover,.navbar-nav > li>a.active{
+.nav-item:hover,
+.navbar-nav > li > a.active {
   /* background: #f5c0c0; */
   font-weight: bold;
 }
@@ -137,7 +211,7 @@ a {
 }
 
 .bottom-container {
-  background-color: #FFC0CB;
+  background-color: #ffc0cb;
   padding: 20px 0 1px;
 }
 
@@ -146,20 +220,19 @@ a {
   margin: auto;
 }
 
-#my_skills{
+#my_skills {
   padding: 7% 15%;
   text-align: center;
-  background-color: #FFC0CB;
+  background-color: #ffc0cb;
   color: #fff;
   padding-top: 1%;
 }
 
-#my_skills h2{
+#my_skills h2 {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.skill_img{
-  
+.skill_img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -169,26 +242,26 @@ a {
   #my_skills {
     padding: 8% 2%;
   }
-  em{
+  em {
     display: block;
   }
-  .skill_img{
+  .skill_img {
     height: 100px;
     width: 100px;
- }
+  }
 }
 
 @media (max-width: 940px) {
   #my_skills {
     padding: 8% 2%;
   }
-  em{
+  em {
     display: block;
   }
-  .skill_img{
+  .skill_img {
     height: 100px;
     width: 100px;
- }
+  }
 }
 .skill-row {
   margin: 50px auto 100px auto;
@@ -289,93 +362,90 @@ a {
     margin-bottom: 35px;
     margin-top: -125px;
   }
-  #my_hobbies{
+  #my_hobbies {
     text-align: center;
     margin: 50px 0;
     padding: 6% 0;
   }
 }
 @media (max-width: 736px) {
-  #my_hobbies{
+  #my_hobbies {
     text-align: center;
-      
+
     padding-bottom: 12%;
   }
-  }
-@media (max-width: 686px) {
-#my_hobbies{
-  text-align: center;
-    
-  padding: 12% 0;
 }
+@media (max-width: 686px) {
+  #my_hobbies {
+    text-align: center;
+
+    padding: 12% 0;
+  }
 }
 @media (max-width: 649px) {
-  #my_hobbies{
+  #my_hobbies {
     text-align: center;
-     
-    padding: 15%  0;
+
+    padding: 15% 0;
   }
+}
+@media (max-width: 610px) {
+  #my_hobbies {
+    text-align: center;
+
+    padding-bottom: 22%;
   }
-  @media (max-width: 610px) {
-    #my_hobbies{
-      text-align: center;
-     
-      padding-bottom: 22% ;
-    }
-    }
-    @media (max-width: 550px) {
-      #my_hobbies{
-        text-align: center;
-          
-        padding-bottom: 30%;
-      }
-      }
-    @media (max-width: 511px) {
-      #my_hobbies{
-        text-align: center;
-          margin: 0px 0;
-        padding: 8% 0;
-      }
-      }
-      
-      @media (max-width: 416px) {
-        #my_hobbies{
-          text-align: center;
-          
-          padding-bottom: 15%;
-        }
-        }
-        @media (max-width: 345px) {
-          #my_hobbies{
-            text-align: center;
-              
-            padding-bottom: 25%;
-          }
-          }
-          @media (max-width: 305px) {
-            #my_hobbies{
-              text-align: center;
-                
-              padding-bottom: 35%;
-            }
-            }
-    
-      
+}
+@media (max-width: 550px) {
+  #my_hobbies {
+    text-align: center;
+
+    padding-bottom: 30%;
+  }
+}
+@media (max-width: 511px) {
+  #my_hobbies {
+    text-align: center;
+    margin: 0px 0;
+    padding: 8% 0;
+  }
+}
+
+@media (max-width: 416px) {
+  #my_hobbies {
+    text-align: center;
+
+    padding-bottom: 15%;
+  }
+}
+@media (max-width: 345px) {
+  #my_hobbies {
+    text-align: center;
+
+    padding-bottom: 25%;
+  }
+}
+@media (max-width: 305px) {
+  #my_hobbies {
+    text-align: center;
+
+    padding-bottom: 35%;
+  }
+}
+
 #my_projects {
   transform: translateY(-10%);
 }
 @media (max-width: 1200px) {
   #my_projects {
-    
     padding-top: 55px;
-    }
   }
-  @media (max-width: 768px) {
-    #my_projects {
-      
-      padding-top: 15px;
-      }
-    }
+}
+@media (max-width: 768px) {
+  #my_projects {
+    padding-top: 15px;
+  }
+}
 #my_projects h2 {
   text-align: center;
   margin-bottom: 35px;
@@ -615,7 +685,7 @@ a {
 .front,
 .back {
   background-size: cover;
-  box-shadow:  4px 4px 8px 0px rgb(255 160 160); 
+  box-shadow: 4px 4px 8px 0px rgb(255 160 160);
 
   background-position: center;
   /* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -660,13 +730,13 @@ a {
 }
 /* .container:hover .front, */
 /* .container:hover .back { */
-  /* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+/* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
     -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1); */
-  /* } */
+/* } */
 
 .back {
   position: absolute;
@@ -748,12 +818,13 @@ a {
   font-size: large;
   font-family: "Roboto", monospace;
 }
-.btn, .btn-secondary{
-  font-family: inherit!important;
+.btn,
+.btn-secondary {
+  font-family: inherit !important;
   color: rgb(255, 255, 255);
 }
 .btn-default {
-  background-color: #FFC0CB ;
+  background-color: #ffc0cb;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
@@ -770,7 +841,7 @@ a {
 }
 /* .btn-default a:hover {
   /* color: #368b85; */
-/* } */ 
+/* } */
 
 @media screen and (max-width: 1000px) {
 }
