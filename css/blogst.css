@@ -107,6 +107,7 @@ img {
   @media (max-width: 768px) {
       .blogHead {
         position: relative;
+        margin-top: 30px;
         margin-bottom: 30px;
       }
   }  
