@@ -295,32 +295,39 @@ a {
     padding: 6% 0;
   }
 }
-@media (max-width: 675px) {
-#my_hobbies{
-  text-align: center;
-    margin: 20px 0;
-  padding: 9% 0;
-}
-}
-@media (max-width: 643px) {
+@media (max-width: 736px) {
   #my_hobbies{
     text-align: center;
-      margin: 5px 0;
-    padding: 10% 0;
+      
+    padding-bottom: 12%;
   }
   }
-  @media (max-width: 597px) {
+@media (max-width: 686px) {
+#my_hobbies{
+  text-align: center;
+    
+  padding: 12% 0;
+}
+}
+@media (max-width: 649px) {
+  #my_hobbies{
+    text-align: center;
+     
+    padding: 15%  0;
+  }
+  }
+  @media (max-width: 610px) {
     #my_hobbies{
       text-align: center;
-        margin: 0px 0;
-      padding: 17% 0;
+     
+      padding-bottom: 22% ;
     }
     }
-    @media (max-width: 538px) {
+    @media (max-width: 550px) {
       #my_hobbies{
         text-align: center;
-          margin-bottom: 0px;
-        padding: 19% 0;
+          
+        padding-bottom: 30%;
       }
       }
     @media (max-width: 511px) {
@@ -331,26 +338,44 @@ a {
       }
       }
       
-      @media (max-width: 376px) {
+      @media (max-width: 416px) {
         #my_hobbies{
           text-align: center;
-            margin: 0px 0;
-          padding: 16% 0;
+          
+          padding-bottom: 15%;
         }
         }
-        @media (max-width: 289px) {
+        @media (max-width: 345px) {
           #my_hobbies{
             text-align: center;
-              margin: 0px 0;
-            padding: 25% 0;
+              
+            padding-bottom: 25%;
           }
           }
+          @media (max-width: 305px) {
+            #my_hobbies{
+              text-align: center;
+                
+              padding-bottom: 35%;
+            }
+            }
     
       
 #my_projects {
   transform: translateY(-10%);
 }
-
+@media (max-width: 1200px) {
+  #my_projects {
+    
+    padding-top: 55px;
+    }
+  }
+  @media (max-width: 768px) {
+    #my_projects {
+      
+      padding-top: 15px;
+      }
+    }
 #my_projects h2 {
   text-align: center;
   margin-bottom: 35px;
