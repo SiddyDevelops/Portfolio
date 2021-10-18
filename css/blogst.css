@@ -80,3 +80,23 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 
+.btnBlog, .btn-secondaryBlog{
+    color:#ffffff;
+  }
+  .btn-defaultBlog {
+    background-color: #FFC0CB ;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  .btn-defaultBlog:hover {
+    background-color: #fce4ec !important;
+    border: 1px solid rgb(0, 2, 3);
+    transition: ease 0.4s;
+    transform: scale(1.02);
+  }
+  .btn-defaultBlog:hover a {
+    color: #303030;
+    transition: ease-in-out 0.4s;
+  }
+
