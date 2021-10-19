@@ -297,6 +297,7 @@ a {
 #my_projects h2 {
   text-align: center;
   margin-bottom: 35px;
+  margin-top: 0;
 }
 
 #mycol {
@@ -351,6 +352,10 @@ a {
 
 #first_hr {
   transform: translateY(60%);
+}
+
+#my_projects {
+  padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -415,7 +420,7 @@ a {
   }
 
   #my_skills {
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
     font-weight: bold;
   }
 
