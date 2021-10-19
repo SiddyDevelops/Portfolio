@@ -5,7 +5,7 @@
   
 ## Authors
 
-- [@SiddyDevelops](https://github.com/SiddyDevelops)
+- [Siddharth Singh](https://github.com/SiddyDevelops)
 
   
 ## Contributing
@@ -15,7 +15,7 @@ Contributions are always welcome! Feel free to star, fork my repo. If you want t
   
 ## Link
 
-https://siddydevelops.github.io/My-Personalized-Website/
+- [Website](https://siddydevelops.github.io/)
   
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://siddydevelops.github.io/My-Personalized-Website/)
@@ -28,8 +28,8 @@ https://siddydevelops.github.io/My-Personalized-Website/
 
  - Contributors:
  
- <a href="https://github.com/SiddyDevelops/My-Personalized-Website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SiddyDevelops/My-Personalized-Website" />
+<a href="https://github.com/SiddyDevelops/SiddyDevelops.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SiddyDevelops/SiddyDevelops.github.io" />
 </a>
 
 
