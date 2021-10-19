@@ -143,9 +143,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact_me">Contact me</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="./blogs.html">Blogs</a>
-              </li>
+              </li> -->
               <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li> -->
@@ -171,6 +171,10 @@
         loop
         autoplay
       ></lottie-player>
+    </div>
+
+    <div id="blogButton">
+      <button data-toggle="tooltip" data-placement="top" title="Blogs By Siddy" class="btn-default1 btn-secondary1"><a class="default" href="./blogs.html">📝</a></button>
     </div>
 
     <div class="middle-container">
@@ -459,6 +463,10 @@
     $('ul.navbar-nav > li > a').removeClass('active');
     $(this).addClass('active');
   });
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
 });
   </script>
   
