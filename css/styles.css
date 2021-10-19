@@ -325,6 +325,10 @@ a {
   color: #464660;
 }
 
+.svg:hover {
+  fill: red;  
+}
+
 .icons:before {
   font-style: normal;
   font-weight: normal;
