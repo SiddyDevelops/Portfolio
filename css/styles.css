@@ -195,7 +195,7 @@ a {
  }
 }
 .skill-row {
-  margin: 50px auto 100px auto;
+  margin: 50px auto 50px auto;
   width: 60%;
   text-align: left;
 }
@@ -272,9 +272,6 @@ a {
 #contact_me h2 {
   margin-top: 0;
 }
-#contact_me {
-  transform: translateY(-40%);
-}
 .copyright {
   color: #eaf6f6;
   font-family: "Nunito", sans-serif;
@@ -292,69 +289,9 @@ a {
     text-align: center;
     margin-bottom: 35px;
   }
-  #my_hobbies{
-    text-align: center;
-    margin: 50px 0;
-    padding: 6% 0;
-  }
   #contact_me {
     transform: none;
   }
-}
-@media (max-width: 675px) {
-#my_hobbies{
-  text-align: center;
-    margin: 20px 0;
-  padding: 9% 0;
-}
-}
-@media (max-width: 643px) {
-  #my_hobbies{
-    text-align: center;
-      margin: 5px 0;
-    padding: 10% 0;
-  }
-  }
-  @media (max-width: 597px) {
-    #my_hobbies{
-      text-align: center;
-        margin: 0px 0;
-      padding: 17% 0;
-    }
-    }
-    @media (max-width: 538px) {
-      #my_hobbies{
-        text-align: center;
-          margin-bottom: 0px;
-        padding: 19% 0;
-      }
-      }
-    @media (max-width: 511px) {
-      #my_hobbies{
-        text-align: center;
-          margin: 0px 0;
-        padding: 8% 0;
-      }
-      }
-      
-      @media (max-width: 376px) {
-        #my_hobbies{
-          text-align: center;
-            margin: 0px 0;
-          padding: 16% 0;
-        }
-        }
-        @media (max-width: 289px) {
-          #my_hobbies{
-            text-align: center;
-              margin: 0px 0;
-            padding: 25% 0;
-          }
-          }
-    
-      
-#my_projects {
-  transform: translateY(-10%);
 }
 
 #my_projects h2 {
@@ -367,9 +304,6 @@ a {
 }
 #details {
   text-align: center;
-}
-.myhobbies {
-  transform: translateY(-50%);
 }
 
 /* .icon-container {
@@ -417,9 +351,6 @@ a {
 
 #first_hr {
   transform: translateY(60%);
-}
-#second_hr {
-  transform: translateY(-1500%);
 }
 
 @media (max-width: 768px) {
@@ -504,10 +435,6 @@ a {
     padding: 0px 15px;
   }
 
-  #my_hobbies {
-    margin-top: -90px;
-  }
-
   #details {
     text-align: center;
   }
@@ -546,7 +473,6 @@ a {
   }
 
   #my_projects {
-    margin-top: 175px;
     background-color: #f9f9f9;
   }
 }
