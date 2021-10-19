@@ -141,8 +141,8 @@ a {
 }
 
 .bottom-container {
-  background-color: #66bfbf;
-  padding: 20px 0 20px;
+  background-color: #FFC0CB;
+  padding: 20px 0 1px;
 }
 
 .intro {
@@ -273,7 +273,7 @@ a {
   margin-top: 0;
 }
 .copyright {
-  color: #eaf6f6;
+  color: #303030;
   font-family: "Nunito", sans-serif;
   font-size: 1.05rem;
   padding: 20px 0;
@@ -293,7 +293,6 @@ a {
     transform: none;
   }
 }
-
 #my_projects h2 {
   text-align: center;
   margin-bottom: 35px;
@@ -708,4 +707,44 @@ a {
 
 #navbar {
   background-color: #fce4ec !important;
+}
+
+.btn-secondary1{
+  font-family: inherit!important;
+  color: rgb(255, 255, 255);
+}
+.btn-default1 {
+  background-color: #E64556 ;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+.btn-default1:hover {
+  background-color: #ffffff !important;
+  border: 1px solid rgb(0, 2, 3);
+  transition: ease 0.8s;
+  transform: scale(1.04);
+}
+.btn-default1:hover a {
+  color: rgb(0, 0, 0);
+  transition: ease-in-out 0.4s;
+}
+
+.blog {
+  background-color : #31B0D5;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border-color: #46b8da;
+}
+
+#blogButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+}
+
+.default:hover {
+  text-decoration: none;
 }
