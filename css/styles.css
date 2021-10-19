@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 */
 
+html {
+  scroll-padding-top: 60px;
+}
+
 body {
   text-align: center;
   margin: 0;
@@ -191,7 +195,7 @@ a {
  }
 }
 .skill-row {
-  margin: 50px auto 100px auto;
+  margin: 50px auto 50px auto;
   width: 60%;
   text-align: left;
 }
@@ -255,7 +259,7 @@ a {
 
 .contact-me {
   width: 40%;
-  margin: 40px auto 0px;
+  margin: 40px auto 40px;
   font-family: "Nunito", sans-serif;
 }
 
@@ -267,9 +271,6 @@ a {
 }
 #contact_me h2 {
   margin-top: 0;
-}
-#contact_me {
-  transform: translateY(-40%);
 }
 .copyright {
   color: #303030;
@@ -287,98 +288,15 @@ a {
   #hobbies {
     text-align: center;
     margin-bottom: 35px;
-    margin-top: -125px;
   }
-  #my_hobbies{
-    text-align: center;
-    margin: 50px 0;
-    padding: 6% 0;
+  #contact_me {
+    transform: none;
   }
 }
-@media (max-width: 736px) {
-  #my_hobbies{
-    text-align: center;
-      
-    padding-bottom: 12%;
-  }
-  }
-@media (max-width: 686px) {
-#my_hobbies{
-  text-align: center;
-    
-  padding: 12% 0;
-}
-}
-@media (max-width: 649px) {
-  #my_hobbies{
-    text-align: center;
-     
-    padding: 15%  0;
-  }
-  }
-  @media (max-width: 610px) {
-    #my_hobbies{
-      text-align: center;
-     
-      padding-bottom: 22% ;
-    }
-    }
-    @media (max-width: 550px) {
-      #my_hobbies{
-        text-align: center;
-          
-        padding-bottom: 30%;
-      }
-      }
-    @media (max-width: 511px) {
-      #my_hobbies{
-        text-align: center;
-          margin: 0px 0;
-        padding: 8% 0;
-      }
-      }
-      
-      @media (max-width: 416px) {
-        #my_hobbies{
-          text-align: center;
-          
-          padding-bottom: 15%;
-        }
-        }
-        @media (max-width: 345px) {
-          #my_hobbies{
-            text-align: center;
-              
-            padding-bottom: 25%;
-          }
-          }
-          @media (max-width: 305px) {
-            #my_hobbies{
-              text-align: center;
-                
-              padding-bottom: 35%;
-            }
-            }
-    
-      
-#my_projects {
-  transform: translateY(-10%);
-}
-@media (max-width: 1200px) {
-  #my_projects {
-    
-    padding-top: 55px;
-    }
-  }
-  @media (max-width: 768px) {
-    #my_projects {
-      
-      padding-top: 15px;
-      }
-    }
 #my_projects h2 {
   text-align: center;
   margin-bottom: 35px;
+  margin-top: 0;
 }
 
 #mycol {
@@ -386,9 +304,6 @@ a {
 }
 #details {
   text-align: center;
-}
-.myhobbies {
-  transform: translateY(-50%);
 }
 
 /* .icon-container {
@@ -437,8 +352,9 @@ a {
 #first_hr {
   transform: translateY(60%);
 }
-#second_hr {
-  transform: translateY(-1500%);
+
+#my_projects {
+  padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -503,7 +419,6 @@ a {
   }
 
   #my_skills {
-    margin-bottom: 90px;
     font-weight: bold;
   }
 
@@ -521,10 +436,6 @@ a {
     margin-top: 5.5rem;
     width: 140%;
     padding: 0px 15px;
-  }
-
-  #my_hobbies {
-    margin-top: -90px;
   }
 
   #details {
@@ -565,7 +476,6 @@ a {
   }
 
   #my_projects {
-    margin-top: 175px;
     background-color: #f9f9f9;
   }
 }
