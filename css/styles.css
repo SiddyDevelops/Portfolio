@@ -93,18 +93,20 @@ a {
   font-size: 2.5rem;
 }
 
-.top-code {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
 .bottom-code {
   height: 60px;
   width: 60px;
   position: absolute;
   left: 250px;
   bottom: 100px;
+  animation: MoveUpDownBottom 3s ease-in infinite;
+}
+
+.top-code {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  animation: MoveUpDownTop 3s ease-in infinite;
 }
 
 .c_bulb {
@@ -113,6 +115,7 @@ a {
   position: absolute;
   left: 100px;
   top: 200px;
+  animation: MoveUpDownTop 3s ease-in infinite;
 }
 
 .c_data {
@@ -121,6 +124,35 @@ a {
   position: absolute;
   right: 100px;
   top: 400px;
+  animation: MoveUpDownsRightBottom 3s ease-out infinite;
+}
+
+@keyframes MoveUpDownBottom {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+@keyframes MoveUpDownTop {
+  0%, 100% {
+    top: 50;
+  }
+  50% {
+    top: 90px;
+  }
+}
+
+
+@keyframes MoveUpDownsRightBottom {
+  0%, 100% {
+    top: 300px;
+  }
+  50% {
+    top: 400px;
+  }
 }
 
 .mePhoto {
