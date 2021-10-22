@@ -753,3 +753,80 @@ a {
 .default:hover {
   text-decoration: none;
 }
+
+.form {
+  text-align: center;
+  margin: 0%;
+  background-color: rgb(246, 237, 247);
+  color: white;
+  padding: 42px 0px;
+  
+}
+.form-group{
+  padding: 0px 119px;
+  margin: 25px 0px;
+  font-size: 20px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 25px 12px;
+  font-size: 20px;
+  line-height: 1.42857143;
+  color: #eee;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-image: none;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 1px 1px 1px rgb(88 25 212 / 8%);
+  box-shadow: inset 1px 1px 1px #e02323;
+  
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  border: 2px solid lightblue blue;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000;
+}
+.btn1 {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid #286090;
+  padding: 9px 26px;
+  font-size: 22px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn1 :hover{
+  color: #555;
+  background-color: #e02323;
+}
+.contact{
+  margin: 83px 0px;
+}
+.form{
+margin: 0%;
+}
