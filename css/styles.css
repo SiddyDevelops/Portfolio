@@ -879,3 +879,18 @@ a {
   }
 
 }
+
+.typed {
+	/* width: 60%; */
+	font-size: 1em;
+	animation: typing 7s infinite;
+	white-space: nowrap;
+  
+	overflow: hidden;
+
+  font-family: "IBM Plex Mono", monospace;
+  margin-top: 0;
+  color: #f5c0c0;
+  /* font-size: 2.5rem; */
+}
+  
