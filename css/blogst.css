@@ -104,6 +104,24 @@ img {
     transition: ease-in-out 0.4s;
   }
 
+  .featurette{
+      margin-bottom: 100px;
+  }
+  button{
+      color:#464660 !important;
+      margin:100px;
+  }
+
+   #home{
+      height:40px;
+      width:40px;
+  }
+
+  .homeButton{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
   @media (max-width: 768px) {
       .blogHead {
         position: relative;
