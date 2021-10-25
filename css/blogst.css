@@ -32,7 +32,7 @@ h2 {
     color: #368b85;
     margin-top: 80px;
 }
-  
+
 h3 {
     font-family: "IBM Plex Mono", monospace;
     color: #11999e;
@@ -50,7 +50,7 @@ img {
     margin: auto;
     text-align: center;
     font-family: arial;
-    margin: 0 10 ;
+    margin: 0 10;
 }
 
 .card button {
@@ -68,15 +68,15 @@ img {
 .row {
     margin-right: 20px !important;
     margin-left: 5px !important;
-}   
-  
+}
+
 .card button:hover {
     opacity: 0.7;
 }
 
 .title {
     font-weight: bolder;
-    font-family: 'Poppins', sans-serif;     
+    font-family: 'Poppins', sans-serif;
     color: #11999e;
 }
 
@@ -84,31 +84,33 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 
-.btnBlog, .btn-secondaryBlog{
-    color:#ffffff;
-  }
-  .btn-defaultBlog {
-    background-color: #FFC0CB ;
+.btnBlog, .btn-secondaryBlog {
+    color: #ffffff;
+}
+
+.btn-defaultBlog {
+    background-color: #FFC0CB;
     border: none;
     padding: 12px;
     border-radius: 5px;
-  }
-  .btn-defaultBlog:hover {
+}
+
+.btn-defaultBlog:hover {
     background-color: #fce4ec !important;
     border: 1px solid rgb(0, 2, 3);
     transition: ease 0.4s;
     transform: scale(1.02);
-  }
-  .btn-defaultBlog:hover a {
+}
+
+.btn-defaultBlog:hover a {
     color: #303030;
     transition: ease-in-out 0.4s;
-  }
+}
 
-  @media (max-width: 768px) {
-      .blogHead {
+@media (max-width: 768px) {
+    .blogHead {
         position: relative;
         margin-top: 30px;
         margin-bottom: 30px;
-      }
-  }  
-
+    }
+}

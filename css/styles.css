@@ -1,4 +1,5 @@
 /* Font-Families: */
+
 /*
     font-family: 'IBM Plex Mono', monospace;
     font-family: 'Merienda', cursive;
@@ -17,9 +18,11 @@ body {
   background-color: #f9f9f9;
   position: relative;
 }
-.navbar-nav > .active {
+
+.navbar-nav>.active {
   color: rgba(0, 0, 0, 0.9) !important;
 }
+
 /* .navbar{
     position: sticky;
     top: 0px;
@@ -65,6 +68,7 @@ hr {
 .githuba {
   color: black;
 }
+
 #github {
   margin-top: 30px;
 }
@@ -74,15 +78,14 @@ a {
   color: #eaf6f6;
   font-size: 1.2rem;
   text-decoration: none;
-
   margin: 0 8px 0 8px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   transition: all 0.25s ease-in-out;
 }
 
-.nav-item:hover,.navbar-nav > li>a.active{
+.nav-item:hover, .navbar-nav>li>a.active {
   /* background: #f5c0c0; */
   font-weight: bold;
 }
@@ -146,7 +149,6 @@ a {
   }
 }
 
-
 @keyframes MoveUpDownsRightBottom {
   0%, 100% {
     top: 300px;
@@ -184,7 +186,7 @@ a {
   margin: auto;
 }
 
-#my_skills{
+#my_skills {
   padding: 7% 15%;
   text-align: center;
   background-color: #FFC0CB;
@@ -192,42 +194,44 @@ a {
   padding-top: 1%;
 }
 
-#my_skills h2{
+#my_skills h2 {
   margin-top: 20px;
   margin-bottom: 50px;
 }
-.skill_img{
-  
+
+.skill_img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
   margin: 20px;
 }
+
 @media (max-width: 1045px) {
   #my_skills {
     padding: 8% 2%;
   }
-  em{
+  em {
     display: block;
   }
-  .skill_img{
+  .skill_img {
     height: 100px;
     width: 100px;
- }
+  }
 }
 
 @media (max-width: 940px) {
   #my_skills {
     padding: 8% 2%;
   }
-  em{
+  em {
     display: block;
   }
-  .skill_img{
+  .skill_img {
     height: 100px;
     width: 100px;
- }
+  }
 }
+
 .skill-row {
   margin: 50px auto 50px auto;
   width: 60%;
@@ -300,12 +304,15 @@ a {
 .contact-me a {
   color: #11999e;
 }
+
 .contact-me a:hover {
   color: #003638;
 }
+
 #contact_me h2 {
   margin-top: 0;
 }
+
 .copyright {
   color: #303030;
   font-family: "Nunito", sans-serif;
@@ -318,6 +325,7 @@ a {
   margin-bottom: 15px;
   margin-top: 0;
 }
+
 @media (max-width: 768px) {
   #hobbies {
     text-align: center;
@@ -327,6 +335,7 @@ a {
     transform: none;
   }
 }
+
 #my_projects h2 {
   text-align: center;
   margin-bottom: 35px;
@@ -336,6 +345,7 @@ a {
 #mycol {
   text-align: center;
 }
+
 #details {
   text-align: center;
 }
@@ -359,7 +369,7 @@ a {
 }
 
 .svg:hover {
-  fill: red;  
+  fill: red;
 }
 
 .icons:before {
@@ -396,129 +406,105 @@ a {
 }
 
 @media (max-width: 768px) {
-  .top-code,
-  .bottom-code,
-  .c_bulb,
-  .c_data {
+  .top-code, .bottom-code, .c_bulb, .c_data {
     display: none;
   }
-
   .intro {
     width: 90%;
     margin: 0px auto;
   }
-
   .skill-row {
     margin: 7% auto;
     width: 90%;
   }
-
   .contact-me {
     width: 80%;
     margin: 5% auto 0px;
   }
-
   .subheading {
     margin-top: 90px;
     margin-bottom: 20px;
   }
-
   h1 {
     position: relative;
     bottom: 30px;
   }
-
   .profile img {
     margin: 70px 0px;
   }
-
   h2 {
     margin-top: 0px;
     text-align: center;
     margin-bottom: 50px;
     font-weight: bold;
   }
-
   h3 {
     font-weight: bold;
   }
-
   .skillrowdes1 {
     font-weight: 100;
   }
   body {
     background-color: #f9f9f9;
   }
-
   .skillrowImage1 {
     width: 275%;
     margin-bottom: 35px;
     padding: 5px 15px;
   }
-
   #my_skills {
     font-weight: bold;
   }
-
   #mycol {
     text-align: center;
   }
-
   #imgg {
     position: absolute;
     /* top: 100px; */
     /* right: 5px; */
     margin: 0px auto;
     right: 1px;
-
     margin-top: 5.5rem;
     width: 140%;
     padding: 0px 15px;
   }
-
   #details {
     text-align: center;
   }
-
   #imgg1 {
     width: 200%;
     position: relative;
     top: 60px;
     padding: 0px 15px;
   }
-
   .copyright {
     width: 90%;
     margin: auto;
   }
-
   .skill-row {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   /* .movedown {
     margin-top: 21.5rem;
   } */
-
   .bottom-container {
     margin-top: 50px;
   }
-
   .contact_me h2 {
     margin-bottom: 0;
   }
   .contant_me p {
     margin-top: 60px;
   }
-
   #my_projects {
     background-color: #f9f9f9;
   }
 }
 
 /*flip cards*/
+
 /* * {
   margin: 0;
   padding: 0;
@@ -556,15 +542,14 @@ a {
   perspective: 1000px;
   margin-bottom: 40px;
 }
+
 /* .container-1 {
   margin-bottom: 10px;
 } */
 
-.front,
-.back {
+.front, .back {
   background-size: cover;
-  box-shadow:  4px 4px 8px 0px rgb(255 160 160); 
-
+  box-shadow: 4px 4px 8px 0px rgb(255 160 160);
   background-position: center;
   /* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -606,15 +591,19 @@ a {
   backface-visibility: hidden;
   border-radius: 10px;
 }
+
 /* .container:hover .front, */
+
 /* .container:hover .back { */
-  /* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+
+/* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
     -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1); */
-  /* } */
+
+/* } */
 
 .back {
   position: absolute;
@@ -677,6 +666,7 @@ a {
 }
 
 /* this */
+
 .front p:after {
   content: "";
   width: 4rem;
@@ -696,22 +686,26 @@ a {
   font-size: large;
   font-family: "Roboto", monospace;
 }
-.btn, .btn-secondary{
+
+.btn, .btn-secondary {
   font-family: inherit!important;
   color: rgb(255, 255, 255);
 }
+
 .btn-default {
-  background-color: #FFC0CB ;
+  background-color: #FFC0CB;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
 }
+
 .btn-default:hover {
   background-color: #fce4ec !important;
   border: 1px solid rgb(0, 2, 3);
   transition: ease 0.8s;
   transform: scale(1.04);
 }
+
 .btn-default:hover a {
   color: rgb(0, 0, 0);
   transition: ease-in-out 0.4s;
@@ -719,10 +713,10 @@ a {
 
 /* .btn-default a:hover {
   /* color: #368b85; */
-/* } */ 
 
-@media screen and (max-width: 1000px) {
-}
+/* } */
+
+@media screen and (max-width: 1000px) {}
 
 @media screen and (max-width: 64rem) {
   .col {
@@ -747,29 +741,32 @@ a {
   background-color: #fce4ec !important;
 }
 
-.btn-secondary1{
+.btn-secondary1 {
   font-family: inherit!important;
   color: rgb(255, 255, 255);
 }
+
 .btn-default1 {
-  background-color: #E64556 ;
+  background-color: #E64556;
   border: none;
   padding: 8px 8px;
   border-radius: 5px;
 }
+
 .btn-default1:hover {
   background-color: #ffffff !important;
   border: 1px solid rgb(0, 2, 3);
   transition: ease 0.8s;
   transform: scale(1.04);
 }
+
 .btn-default1:hover a {
   color: rgb(0, 0, 0);
   transition: ease-in-out 0.4s;
 }
 
 .blog {
-  background-color : #31B0D5;
+  background-color: #31B0D5;
   color: white;
   padding: 5px 15px;
   border-radius: 10px;
@@ -787,44 +784,45 @@ a {
   text-decoration: none;
 }
 
-.hobby-para{
+.hobby-para {
   text-align: center;
   font-size: x-large;
   margin-bottom: 0px;
   font-family: "Roboto", monospace;
 }
 
-.hobby-section{
+.hobby-section {
   height: 50vh;
   width: 100%;
   background-color: #FCE4EC;
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 40px;
 }
 
-.hobby-card{
+.hobby-card {
   height: 80%;
   width: 22%;
-  background-color:black;
+  background-color: black;
   display: inline-block;
   background-size: cover;
 }
-.hobby-image{
+
+.hobby-image {
   width: 100%;
   height: 100%;
   opacity: 0.5;
 }
 
-.hobby-image:hover{
+.hobby-image:hover {
   opacity: 1;
   transition: 0.15s ease-in;
 }
 
-.hobby-h2{
+.hobby-h2 {
   transform: translateY(-400%);
   text-align: center;
   color: white;
@@ -832,66 +830,56 @@ a {
   font-family: "Roboto", monospace;
 }
 
-
 @media screen and (max-width: 64rem) {
-  .hobby-section{
-
+  .hobby-section {
     height: 150vh;
   }
-  .hobby-card{
+  .hobby-card {
     height: 300px;
     width: 350px;
   }
-  .hobby-image:hover{
+  .hobby-image:hover {
     opacity: 1;
     transition: 0.2s ease-in;
   }
 }
 
 @media screen and (max-width: 48rem) {
-
-  .hobby-section{
-
+  .hobby-section {
     height: 150vh;
   }
-  .hobby-card{
+  .hobby-card {
     height: 200px;
     width: 250px;
   }
-  .hobby-image:hover{
+  .hobby-image:hover {
     opacity: 1;
     transition: 0.2s ease-in;
   }
 }
 
 @media screen and (max-width: 32rem) {
-
-  .hobby-section{
-
+  .hobby-section {
     height: 150vh;
   }
-  .hobby-card{
+  .hobby-card {
     height: 170px;
     width: 220px;
   }
-  .hobby-image:hover{
+  .hobby-image:hover {
     opacity: 1;
     transition: 0.2s ease-in;
   }
-
 }
 
 .typed {
-	/* width: 60%; */
-	font-size: 1em;
-	animation: typing 7s infinite;
-	white-space: nowrap;
-  
-	overflow: hidden;
-
+  /* width: 60%; */
+  font-size: 1em;
+  animation: typing 7s infinite;
+  white-space: nowrap;
+  overflow: hidden;
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
   color: #f5c0c0;
   /* font-size: 2.5rem; */
 }
-  
