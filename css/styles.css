@@ -780,6 +780,13 @@ a {
   z-index: 9;
 }
 
+#profileButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+}
+
 .default:hover {
   text-decoration: none;
 }
