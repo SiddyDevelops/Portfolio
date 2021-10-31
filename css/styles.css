@@ -397,6 +397,16 @@ a {
   animation: sonarEffect 1.3s ease-out 75ms;
 }
 
+.fa-instagram:hover{
+  background-color: #C13584;
+}
+.fa-linkedin:hover{
+  background-color: #0077b5;
+}
+.fa-github:hover{
+  background-color: #5b5959;
+}
+
 #first_hr {
   transform: translateY(60%);
 }
