@@ -1,6 +1,6 @@
 
 
-***This website was made opensource during Hacktober 2021 for developers to contribute and enhnace this website, expressing their creativity.***
+***This website was made opensource during HacktoberFest 2021 for developers to contribute and enhnace this website, expressing their creativity.***
 
   
 ## Authors
@@ -28,9 +28,10 @@ Contributions are always welcome! Feel free to star, fork my repo. If you want t
 
  - Contributors:
  
-<a href="https://github.com/SiddyDevelops/SiddyDevelops.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=SiddyDevelops/SiddyDevelops.github.io" />
-</a>
+  <a href="https://github.com/SiddyDevelops/SiddyDevelops.github.io/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=SiddyDevelops/SiddyDevelops.github.io" />
+  </a>
+
 
 
   
