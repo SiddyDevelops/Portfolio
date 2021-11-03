@@ -93,7 +93,7 @@ a {
 .subheading {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #f5c0c0;
+  color: #FFC0CB;
   font-size: 2.5rem;
 }
 
@@ -897,6 +897,6 @@ a {
   overflow: hidden;
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #f5c0c0;
+  color: #FFC0CB;
   /* font-size: 2.5rem; */
 }
