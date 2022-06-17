@@ -15,7 +15,7 @@ Contributions are always welcome! Feel free to star, fork my repo. If you want t
   
 ## Link
 
-- [Website](https://siddydevelops.github.io/)
+- [Website](https://siddydevelops.github.io/Portfolio/)
   
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://siddydevelops.github.io/My-Personalized-Website/)
