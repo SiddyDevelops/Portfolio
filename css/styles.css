@@ -39,7 +39,7 @@ h1 {
 h2 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
-  color: #368b85;
+  color: #ffffff;
   margin-top: 80px;
 }
 
@@ -173,11 +173,11 @@ a {
 .middle-container {
   margin-top: 0px;
   padding-bottom: 20px;
-  background-color: #f9f9f9;
+  background-color: #83677B;
 }
 
 .bottom-container {
-  background-color: #FFC0CB;
+  background-color: #000000;
   padding: 20px 0 1px;
 }
 
@@ -365,7 +365,7 @@ a {
 
 .icons {
   padding: 8px;
-  color: #464660;
+  color: #ffffff;
 }
 
 .svg:hover {

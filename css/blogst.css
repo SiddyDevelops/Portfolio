@@ -5,17 +5,17 @@
 body {
     text-align: center;
     margin: 0;
-    background-color: #FCEBEC;
+    background-color: #4e40cd;
 }
 
 .body {
     text-align: center;
     margin: 0;
-    background-color: #FCEBEC;
+    background-color: #0289ae82;
 }
 
 .blogHead {
-    color: #464660;
+    color: #ffffffa5;
 }
 
 h1 {
@@ -57,7 +57,7 @@ img {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: rgba(13, 101, 148, 0.951);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -70,7 +70,7 @@ img {
 }
 
 .card button:hover {
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .title {
@@ -95,8 +95,8 @@ img {
 }
 
 .btn-defaultBlog:hover {
-    background-color: #fce4ec !important;
-    border: 1px solid rgb(0, 2, 3);
+    background-color: #919b9d31 !important;
+    border: 1px solid rgb(3, 0, 0);
     transition: ease 0.4s;
     transform: scale(1.02);
 }
