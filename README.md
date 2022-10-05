@@ -1,6 +1,6 @@
 
 
-***This website was made opensource during HacktoberFest 2021 for developers to contribute and enhance this website, expressing their creativity.***
+***This website is made opensource during HacktoberFest 2022 for developers to contribute and enhance this website, expressing their creativity.***
 
   
 ## Authors
