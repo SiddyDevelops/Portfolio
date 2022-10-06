@@ -15,12 +15,12 @@ html {
 body {
   text-align: center;
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: #3aafa9;
   position: relative;
 }
 
 .navbar-nav>.active {
-  color: rgba(0, 0, 0, 0.9) !important;
+  color:rgba(0,0,0,0.9)!important;
 }
 
 /* .navbar{
@@ -33,32 +33,32 @@ h1 {
   height: 6.875rem;
   font-size: 5.625rem;
   font-family: "Merienda", cursive;
-  color: #464660;
+  color: #feffff;
 }
 
 h2 {
   font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
-  color: #368b85;
+  color: #17252a;
   margin-top: 80px;
 }
 
 h3 {
   font-family: "IBM Plex Mono", monospace;
-  color: #11999e;
+  color: #17252A;
   font-size: 1.5rem;
 }
 
 p {
   padding: 22px 19px 0;
   font-family: "Nunito", sans-serif;
-  color: #003638;
+  color: #FEFFFF;
   font-size: 1.2rem;
   line-height: 1.5;
 }
 
 hr {
-  border: dotted #f5c0c0 6px;
+  border: dotted #3AAFA9 6px;
   border-bottom: none;
   background-color: #f9f9f9;
   width: 5%;
@@ -75,7 +75,7 @@ hr {
 
 a {
   font-family: "Merienda", cursive;
-  color: #eaf6f6;
+  color: #17252A;
   font-size: 1.2rem;
   text-decoration: none;
   margin: 0 8px 0 8px;
@@ -86,14 +86,13 @@ a {
 }
 
 .nav-item:hover, .navbar-nav>li>a.active {
-  /* background: #f5c0c0; */
   font-weight: bold;
 }
 
 .subheading {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #FFC0CB;
+  color:#17252A;
   font-size: 2.5rem;
 }
 
@@ -164,7 +163,7 @@ a {
 }
 
 .top-container {
-  background-color: #fce4ec;
+  background-color: #3AAFA9;
   margin: 40px 0px 0px 0px;
   position: relative;
   padding-top: 100px;
@@ -173,11 +172,11 @@ a {
 .middle-container {
   margin-top: 0px;
   padding-bottom: 20px;
-  background-color: #f9f9f9;
+  background-color: #3AAFA9;
 }
 
 .bottom-container {
-  background-color: #FFC0CB;
+  background-color: #2B7A78;
   padding: 20px 0 1px;
 }
 
@@ -189,7 +188,7 @@ a {
 #my_skills {
   padding: 7% 15%;
   text-align: center;
-  background-color: #FFC0CB;
+  background-color: #3AAFA9;
   color: #fff;
   padding-top: 1%;
 }
@@ -382,7 +381,7 @@ a {
 }
 
 .icons:hover {
-  background: #11999e;
+  background: #3AAFA9;
   -webkit-transform: scale(0.93);
   -moz-transform: scale(0.93);
   -ms-transform: scale(0.93);
@@ -455,7 +454,7 @@ a {
     font-weight: 100;
   }
   body {
-    background-color: #f9f9f9;
+    background-color: #3AAFA9;
   }
   .skillrowImage1 {
     width: 275%;
@@ -559,7 +558,7 @@ a {
 
 .front, .back {
   background-size: cover;
-  box-shadow: 4px 4px 8px 0px rgb(255 160 160);
+  box-shadow: 4px 4px 8px 0px rgb(28, 39, 46);
   background-position: center;
   /* -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -580,8 +579,8 @@ a {
 }
 
 .back {
-  background: #fff;
-  background: -webkit-linear-gradient(#cedce7 0%);
+  background: #38ada9;
+  background: -webkit-linear-gradient(#3077ad 0%);
   background: -o-linear-gradient(45deg, #cedce7 0%);
   background: linear-gradient(45deg, #cedce7 0%);
 }
@@ -596,7 +595,7 @@ a {
   content: "";
   display: block;
   opacity: 1;
-  background-color: #fce4ec;
+  background-color: #DEF2F1;
   /* -webkit-backface-visibility: hidden; */
   backface-visibility: hidden;
   border-radius: 10px;
@@ -703,15 +702,14 @@ a {
 }
 
 .btn-default {
-  background-color: #FFC0CB;
+  background-color: #17252A;
   border: none;
   padding: 8px 15px;
   border-radius: 5px;
 }
 
 .btn-default:hover {
-  background-color: #fce4ec !important;
-  border: 1px solid rgb(0, 2, 3);
+  background-color: #3AAFA9 !important;
   transition: ease 0.8s;
   transform: scale(1.04);
 }
@@ -748,7 +746,7 @@ a {
 }
 
 #navbar {
-  background-color: #fce4ec !important;
+  background-color: #2B7A78 !important;
 }
 
 .btn-secondary1 {
@@ -811,7 +809,7 @@ a {
 .hobby-section {
   height: 50vh;
   width: 100%;
-  background-color: #FCE4EC;
+  background-color: #3AAFA9;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -897,6 +895,6 @@ a {
   overflow: hidden;
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #FFC0CB;
+  color: #17252A;
   /* font-size: 2.5rem; */
 }

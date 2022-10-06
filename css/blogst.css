@@ -5,13 +5,13 @@
 body {
     text-align: center;
     margin: 0;
-    background-color: #FCEBEC;
+    background-color: #3AAFA9;
 }
 
 .body {
     text-align: center;
     margin: 0;
-    background-color: #FCEBEC;
+    background-color: #3aafa9;
 }
 
 .blogHead {
@@ -23,19 +23,18 @@ h1 {
     height: 6.875rem;
     font-size: 5.625rem;
     font-family: "Merienda", cursive;
-    color: #464660;
 }
 
 h2 {
     font-family: "IBM Plex Mono", monospace;
     font-size: 2rem;
-    color: #368b85;
+    color: #17252a;
     margin-top: 80px;
 }
 
 h3 {
     font-family: "IBM Plex Mono", monospace;
-    color: #11999e;
+    color: #17252a;
     font-size: 1.5rem;
 }
 
@@ -45,7 +44,7 @@ img {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     max-width: 300px;
     text-align: center;
     font-family: arial;
@@ -57,7 +56,7 @@ img {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #17252a;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -88,14 +87,14 @@ img {
 }
 
 .btn-defaultBlog {
-    background-color: #FFC0CB;
+    background-color: #feffff;
     border: none;
     padding: 12px;
     border-radius: 5px;
 }
 
 .btn-defaultBlog:hover {
-    background-color: #fce4ec !important;
+    background-color: #def2f1 !important;
     border: 1px solid rgb(0, 2, 3);
     transition: ease 0.4s;
     transform: scale(1.02);
