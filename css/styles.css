@@ -900,3 +900,14 @@ a {
   color: #FFC0CB;
   /* font-size: 2.5rem; */
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #FFC0CB;
+  border-radius: 20px;
+}
